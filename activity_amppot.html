@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1337 khz | kernelcon 2023 badge</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid;
+    }
+  </style>
+  <link href="css/cover.css" rel="stylesheet">
+</head>
+
+<body class="d-flex h-100 text-center text-bg-dark">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <main class="px-3">
+      <h1>Amp & Volume Control</h1>
+      <p>Add in a transistor amp to make your badge louder and a volume control knob.</p>
+      <h3>Step 1</h3>
+      <p>Get yourself the following components:</p>
+      <p>
+      <table style="margin-right:auto;margin-left:auto;">
+        <tr>
+          <td><b>Quantity</b></td>
+          <td><b>Type</b></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>50K Potentiometer</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>8.2K Resistor</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>10nF Capacitor</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2N3904 Transistor</td>
+        </tr>
+      </table>
+      </p>
+      <h3>Step 2</h3>
+      <p>Look at the schematic.</p>
+      <p><a href="activity_level3_img/level3_schematic.png" target="_blank">Make it larger in a new
+          tab</a></p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_schematic.png" /></p>
+      <h3>Step 3</h3>
+      <p>Unplug your antenna and headphones. Pull your battery out.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step3.jpg" /></p>
+      <h3>Step 4</h3>
+      <p>Plan your component layout, especially the potentiometer. You can totally do this if you want:</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step4a.jpg" /></p>
+      <p>But it looks a bit like an udder hanging off your badge. Maybe instead you'd like to drill and do a panel
+        mount:</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step4b.jpg" /></p>
+      <p>Much cooler, and you get to use a power tool in the process.</p>
+      <p>The next thing you're going to do is to break any litle metal tabs off the front of the potentiometer. These
+        tabs are meant for panel mounting, but in our design we don't have a place for them. This is a hack. Grab a pair
+        of needle nose pliers and break them off. If you don't, the potentiometer will not sit flush on the PCB.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step4c.jpg" /></p>
+      <p>Figure out where you can put the thing. You want to leave some space for the other components. You also want to
+        avoid contact with other components or covering up the solder pads you'll be working with.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step4d.jpg" /></p>
+      <p>Flip the potentiometer over and mark around the shaft. The marked circle will be where you drill.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step4e.jpg" /></p>
+      <p>Finally, drill the hole that the potentiometer will go through. You will need a drill bit that is a slightly
+        larger diameter than the shaft of the potentiometer. If you find that the larger drill bit wants to walk around
+        the board instead of drilling, start with a smaller bit then make the hole larger with the desired drill bit
+        size.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step4f.jpg" /></p>
+      <h3>Step 5</h3>
+      <p>Get an X-acto knife and cut through the middle of the J-TR solder jumper. There's a small trace connecting the
+        two pads. It's a bit difficult to cut and you may need to apply some pressure while cutting. Be mindful of your
+        fingers.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step5a.jpg" /></p>
+      <p>Rotate the board so the J-S jumper is facing you. Before you cut the J-S jumper look at the below picture. See
+        the red line? There is a battery power trace there. If you cut that, your badge will die and we will have to use
+        a wire to bring it back to life. Repeat after me: "I will not cut the battery power trace." OK good. Now go cut
+        the J-S solder jumper.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step5b.jpg" /></p>
+      <p>Grab a multimeter and set it for continuity (Ohms)... The little greek Omega symbol. Put a probe on each side
+        of the J-S solder pad. The meter should read like an open connection. It should NOT read 0 Ohms. If it does, go
+        back to cutting. Repeat for the J-TR solder pad. If you need help, ask for help. It's important to make sure the
+        headphone jack is completely disconnected.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step5c.jpg" /></p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step5d.jpg" /></p>
+      <h3>Step 6</h3>
+      <p>Put your potentiometer through the board and fasten the front side with a washer and retaining nut.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step6a.jpg" /></p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step6b.jpg" /></p>
+      <h3>Step 7</h3>
+      <p>This is where things start to get a little dicey. You're going to need to keep track of transistor orientation
+        and which transistor pins you're connecting to what other components.</p>
+      <p>If you place the 2N3904 transistor on the table so the flat part is facing up like in the diagram below, pin 1
+        is on the left side and pin 3 on the right.</p>
+      <p><img class="img-fluid" src="activity_level3_img/2n3904-pinout.jpg" /></p>
+      <p><b>NOTE:</b> When you start soldering do not immediately clip off excess component leads. Those leads will help
+        you connect components together. It is much easier to bend the lead to the next hole you want to connect to than
+        to blob a solder bridge between two holes.</p>
+      <p>We are going to be connecting pin 3 of the 2N3904 to VCC. Go ahead and solder it in. Also solder in the 10nF
+        capacitor so that it's in a hole right next to pin 1 of the 2N3904. Stretch the other end of the capacitor as
+        close to GND as you can. It won't go all the way. We will bridge the gap later with wire. It should look
+        something like the below picture when you are done with this step.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step7a.jpg" /></p>
+      <p>Solder one end of your resistor to VCC. Solder the other to the closest pin of the potentiometer. It helps to
+        wrap the resistor lead around the potentiometer pin before you solder it.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step7b.jpg" /></p>
+      <p>Flip your badge over. It should look something like this.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step7c.jpg" /></p>
+      <p>Gently bend the excess lead from the capacitor to pin 2 of the 2N3904. You can cut off any lead that goes
+        beyond where it meets with pin 2 of the 2N3904. Solder those two connections together and trim off any excess
+        leads. Once that is done it should look like the below.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step7d.jpg" /></p>
+      <h3>Step 8</h3>
+      <p>Grab some wire. You are going to run a wire from pin 2 of the 2N3904 to the pin of the potentiometer where you
+        previously soldered the resistor. Strip a bit of sheathing off one of the ends of the wire and feed it through a
+        hole close to pin 2 of the 2N3904.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step8a.jpg" /></p>
+      <p>Flip the board over and solder the wire to pin 2 of the 2N3904.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step8b.jpg" /></p>
+      <p>Flip the board back over, strip the other end of the wire, wrap it around the potentiometer pin a bit, then
+        solder it.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step8c.jpg" /></p>
+      <h3>Step 9</h3>
+      <p>Grab some more wire and strip an end. Feed the stripped end through a hole next to the capacitor. Make sure you
+        feed enough through to connect with the capacitor pin. Solder the wire end to the capacitor pin. The other end
+        of this wire is going to a pin labled GND. Trim to length, strip the other end, and solder to GND. See below
+        pictures for where this wire connects.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step9a.jpg" /></p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step9b.jpg" /></p>
+      <h3>Step 10</h3>
+      <p>Use a small piece of wire or component lead scrap to solder the other 2 potentiometer pins together.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step10a.jpg" /></p>
+      <h3>Step 11</h3>
+      <p>Use a longer piece of wire to connect the hole labled "S" to the lowest pin of the potentiometer. See below
+        picture for reference. In the picture, the wire is hidden because it was tucked under the potentiometer.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step11a.jpg" /></p>
+      <h3>Step 12</h3>
+      <p>Use a longer piece of wire to connect pin 1 of the 2N3904 to the solder pad between J-TR and the headphone
+        jack. Be sure to feed enough wire through to reach pin 1 of the 2N3904 and solder them together.
+        To solder one of the wire ends to the solder pad, first heat the pad with the soldering iron while putting a
+        blob of solder on it. Then grab the wire with some tweezers, melt the solder blob again, and push the wire end
+        into the molten blob of solder.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step12a.jpg" /></p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step12b.jpg" /></p>
+      <h3>Step 13</h3>
+      <p>Last one! You're almost done. Grab another long piece of wire and connect the solder pad next to the J-S solder
+        jumper and GND.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step13a.jpg" /></p>
+      <h3>Step 14</h3>
+      <p>Flip the board over and trim off any excess leads.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step14a.jpg" /></p>
+      <h3>Done!</h3>
+      <p>Slide the knob onto your new volume control. You now have a louder badge and can adjust the volume with the
+        knob you added.</p>
+      <p><img class="img-fluid" src="activity_level3_img/level3_step15a.jpg" /></p>
+    </main>
+  </div>
+</body>
+
+</html>
