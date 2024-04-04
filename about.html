@@ -1,205 +1,101 @@
 <!doctype html>
 <html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[a]nalyze [i]nternet badge | kernelcon 2024</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>1337 khz | kernelcon 2023 badge</title>
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
       }
-    }
 
-    .b-example-divider {
-      height: 3rem;
-      background-color: rgba(0, 0, 0, .1);
-      border: solid rgba(0, 0, 0, .15);
-      border-width: 1px 0;
-      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-    }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
 
-    .b-example-vr {
-      flex-shrink: 0;
-      width: 1.5rem;
-      height: 100vh;
-    }
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
 
-    .bi {
-      vertical-align: -.125em;
-      fill: currentColor;
-    }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
 
-    .nav-scroller {
-      position: relative;
-      z-index: 2;
-      height: 2.75rem;
-      overflow-y: hidden;
-    }
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
 
-    .nav-scroller .nav {
-      display: flex;
-      flex-wrap: nowrap;
-      padding-bottom: 1rem;
-      margin-top: -1px;
-      overflow-x: auto;
-      text-align: center;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-    }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
 
-    table,
-    th,
-    td {
-      border: 1px solid;
-    }
-  </style>
-  <link href="css/cover.css" rel="stylesheet">
-</head>
-
-<body class="d-flex h-100 text-center text-bg-dark">
-
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="mb-auto">
-      <div>
-        <h3 class="float-md-start mb-0">1337 khz badge</h3>
-        <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link fw-bold py-1 px-0" href="index.html">Home</a>
-          <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="about.html">About</a>
-          <a class="nav-link fw-bold py-1 px-0" href="ibom.html">Interactive BOM</a>
-          <a class="nav-link fw-bold py-1 px-0" href="activities.html">Activities</a>
-        </nav>
-      </div>
-    </header>
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+    <link href="css/cover.css" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-center text-bg-dark">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">[a]nalyze [i]nternet badge</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link fw-bold py-1 px-0 active" href="about.html">About</a>
+        <a class="nav-link fw-bold py-1 px-0" href="ibom.html">Interactive BOM</a>
+        <a class="nav-link fw-bold py-1 px-0" href="activities.html">Activities</a>
+        <a class="nav-link fw-bold py-1 px-0" href="past_badges.html">Past Badges</a>
+      </nav>
+    </div>
+  </header>
 
     <main class="px-3">
       <p>&nbsp;</p>
       <h3>About The Badge</h3>
-      <p>For this year's badge we chose an old school design. A couple years later the component shortage is still real
-        y'all.</p>
+      <p>Just like last year's badge, this badge has kept it old school... no microcontrollers! The "brains" of the badge are a 555 timer and a 4017 decade counter. These are used to test one line of a LAN cable at a time. There are two sets of LEDs on the badge, one on the head and one on the remote. The head LED indicates which line is being tested and the remote LED shows where that test signal appeared on the other end to ensure proper order. Head over to the activities portion of the site <a href="activities.html#make">learn how to test a cable</a>!
+      <h3>Technical Bits</h3>
+      <p>The 555 timer is in an astable configuration, creating a 1 hz pulse. This pulse increments the 4017, which changes which output is pulled high to test each line in turn. The remaining outputs have ground potential. Each output is connected to one pin of the RJ45 jack, and the last output is connected to reset of the 4017 to make the count start over. This setup sends a voltage down 1 line of the cable at a time, in order, and then starts over.</p>
+      <p>Now here is where the <i>magic</i> is!</p> 
+      <p>Using a network of diodes (electronics' favorite one-way valve) each line of the cable is capable of being tested itself AND as a ground return path to support the testing of other lines. This way the remote end can be very simple. It just connects all lines of the cable together!  The line under test can then use any of the other lines to find a path back to ground, completing the circuit, and thus lighting some well placed LEDs to display what line is being tested and where the signal appeared on the other end. Ahhhh the elegance of analog circuits! :) </p>
       <h3>Manufacturing</h3>
-      <p>The badge was designed and prototyped by Kevin Neubauer (<a
-          href="https://infosec.exchange/@bl4cksmith">@bl4cksmith@infosec.exchange</a>) and Tyler Rosonke (<a
-          href="https://twitter.com/zonksec">@zonksec</a>). Assembly was done by <a href="https://cybercitycircuits.com/">Cyber City
+      <p>The badge was designed and prototyped by zonksec (Tyler Rosonke). Assembly was done by <a href="https://cybercitycircuits.com/">Cyber City
         Circuits</a> in Augusta, GA.</p>
-      <h3>Interesting Bits</h3>
-      <p>
-        1.5V design (sadly this means most LEDs won't work)<br />
-        Based on the TA7642 AM Radio IC<br />
-        Hackable design (see the Activities page)<br />
-        Has a small transistor amp, which makes it suitable for listening on headphones<br />
-        Mono audio sent to both headphone channels<br />
-        <!--
-        Did you know that Spotify has 489 million monthly active listeners?
-        I'm pretty sure our Kernelcon AM transmitters would burst into flames if we tried to broadcast to that many listeners.
-      -->
-      </p>
-      <h3>RF Gain Knob</h3>
-      <p>Worth it's own special mention is the RF Gain knob on the badge. This little beauty dials up or dials down the
-        amount of power the RF tuning circuit receives. Why, you ask? This year's badge is an amazingly cheap, quick &
-        dirty, unshielded, and non-earth grounded AM radio with a single inductor capacitor tuner.</p>
-      <p>The TA7642 chip the
-        badge is built around is supposed to have Automatic Gain Control (AGC). Think of AGC as adjusting the RF gain
-        down when you are dialed into a strong station and adjusting it up when you are dialed into a weak station.
-        There's one problem though. The TA7642 doesn't actually do this very well. It actually kind of sucks at doing
-        it, but what can you expect for a 10 cent radio chip ordered direct from China off Aliexpress? </p>
-      <p>The RF Gain knob is a hack to overcome the crappy TA7642 AGC. By turning down the power to the RF tuner you
-        can, in some cases, achieve better selectivity across the tuner dial. Without this hack, you simply receive 1110
-        KFAB across the whole tuner dial while you are in Omaha. Insert joke here about a radio
-        station that plays Fox News trying to broadcast with enough power to take over the whole tuner dial.
-      </p>
-      <h3>Hacker Playground</h3>
-      <p>
-        We wanted to provide a place to have some hardware fun on the badge. Behold! The Hacker Playground.
-      </p>
-      <p><img class="img-fluid" src="hacker_playground.jpg" /></p>
-      <p>Here's what those cryptic letters mean:</p>
-      <p>
-      <table style="margin-left:auto;margin-right:auto;">
-        <tr>
-          <td>VCC / 1.5V</td>
-          <td style="text-align:left;">These pins carry 1.5 volts</td>
-        </tr>
-        <tr>
-          <td>GND</td>
-          <td style="text-align:left;">These are ground pins</td>
-        </tr>
-        <tr>
-          <td>O</td>
-          <td style="text-align:left;">Audio output from the radio IC <b>pre-amplifier</b></td>
-        </tr>
-        <tr>
-          <td>S</td>
-          <td style="text-align:left;">Audio output from the radio IC <b>post-amplifier</b> and connects to the S pins
-            on the headphone jack (unless you cut J-S).</td>
-        </tr>
-        <tr>
-          <td>TR</td>
-          <td style="text-align:left;">1.5V and connects to the TR pins on the headphone jack (unless you cut J-TR)</td>
-        </tr>
-        <tr>
-          <td>J-S (not pictured)</td>
-          <td style="text-align:left;">Solder jumper that severs the S pin of the headphone jack from the circuit when
-            cut</td>
-        </tr>
-        <tr>
-          <td>J-TR (not pictured)</td>
-          <td style="text-align:left;">Solder jumper that severs the TR pins of the headphone jack from the circuit when
-            cut</td>
-        </tr>
-      </table>
-      </p>
-      <p>All unlabeled pins are yours to use. The are not connected to each other unless you connect them with wire or
-        solder.</p>
       <h3>Schematic</h3>
       <p>Yes. It's a bit hard to read on this page. <a href="badge_schematic.png" target="_blank">Open it in a new
           tab</a> or <a href="badge_schematic.pdf" target="_blank">get a PDF</a>.</p>
       <p><img class="img-fluid" src="badge_schematic.png" /></p>
-      <h3>Super Secret Stuff</h3>
-      <p>You've read this far, probably hoping to find some clues on "what's hidden in the badge" or something similar.
-        I'm going to let you in on a secret...</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>Nothing. There's absolutely nothing hidden <i>inside</i> the badge. There's no microcontroller. No flash
-        storage.
-        It's an old school analog design.</p>
-      <p>If you aren't happy with this response, I don't blame you. Badge challenges are fun. Did I mention that we've
-        still got badge challenges? Drop by the Kernelcon CTF to find out more.</p>
     </main>
 
     <footer class="mt-auto text-white-50">
-      <p>kernelcon 2023 | built by kevin & tyler</p>
+      <p>kernelcon 2024 | zonksec</p>
     </footer>
   </div>
 </body>

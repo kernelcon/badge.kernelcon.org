@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>1337 khz | kernelcon 2023 badge</title>
+  <title>[a]nalyze [i]nternet badge | kernelcon 2024</title>
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -68,52 +68,78 @@
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
       <div>
-        <h3 class="float-md-start mb-0">1337 khz badge</h3>
+        <h3 class="float-md-start mb-0">[a]nalyze [i]nternet badge</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
           <a class="nav-link fw-bold py-1 px-0" href="about.html">About</a>
           <a class="nav-link fw-bold py-1 px-0" href="ibom.html">Interactive BOM</a>
           <a class="nav-link fw-bold py-1 px-0 active" href="activities.html">Activities</a>
-        </nav>
-      </div>
-      <p>&nbsp;</p>
-      <div>
-        <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link fw-bold py-1 px-0" href="#" onclick="navPage('activity_list.html')">List</a>
-          <a class="nav-link fw-bold py-1 px-0" href="#" onclick="navPage('activity_bling.html')">Badge Bling</a>
-          <a class="nav-link fw-bold py-1 px-0" href="#" onclick="navPage('activity_amppot.html')">Amp & Volume Control</a>
+          <a class="nav-link fw-bold py-1 px-0" href="past_badges.html">Past Badges</a>
         </nav>
       </div>
     </header>
 
     <main class="px-3">
-      <iframe id='wp-twoblock-0' src='activity_list.html' onload='setIframeHeight(this.id);'
-        style='border:0px;vertical-align:bottom;width:100%;overflow:hidden;' target='_PARENT' marginwidth='0'
-        marginheight='0' frameborder='0' scrolling='no'></iframe>
-    </main>
-    
-    <footer class="mt-auto text-white-50">
-      <p>kernelcon 2023 | built by kevin & tyler</p>
-    </footer>
-  </div>
-  <script type="text/javascript">
-    function navPage(page) {
-      document.getElementById('wp-twoblock-0').src = page;
-    }
-    function getDocHeight(doc) {
-      doc = doc || document;
-      var body = doc.body, html = doc.documentElement;
-      var height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-      return height;
-    }
-
-    function setIframeHeight(id) {
-      const ifrm = document.getElementById(id);
-      const doc = ifrm.contentDocument ? ifrm.contentDocument : ifrm.contentWindow.document;
-      ifrm.style.height = getDocHeight(doc) + 2 + "px";
-    }
-  </script>
-</body>
-
-</html>
+        <li><a href="#assemble">How to Make Remote Removable</a></li>
+        <li><a href="#make">How to Make a Cable</a></li>
+        <li><a href="#test">How to Test a Cable</a></li>
+        <li><a href="#modify">How to Modify the 555 timer Circuit</a></li>
+        </br>
+        <h3 id="assemble">How to Make Remote Removable</h3>
+          <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5B0F5jGeSQU?si=dFbO8E85Dh4lR0-t" allowfullscreen></iframe></div></p>
+          </br></br>
+        <h3 id="make">How to Make a Cable</h3>
+          <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NWhoJp8UQpo?si=-BrJV-TJJPTrYrce&amp;start=82" allowfullscreen></iframe></div></p>
+          <img class="img-fluid" src="activites_images\wiring.gif">
+          <p>Note: There is a sticker in your conference bag with an ethernet pinout as well!</p>
+          </br></br>
+        <h3 id="test">How to Test a Cable</h3>
+          <li>Connect the cable you want to test to the head and the remote of the badge.</li> 
+          <li>Next, turn on the badge.</li> 
+          <li>Now, observe the lights!</li> 
+          <li>The bank of lights on the head (top) indicate which line of the cable is being tested. If there is no continuity for that line, it will not light! This would mean your cable has an issue and needs to be investigated and fixed! If there is continuity, a light will be lit on the head and remote bank of lights (bottom). The bottom bank indicates where the line is connected on the other end. This line # should be the same on the top and bottom (for non-crossover cables). If it's not, the cable ordering is incorrect and needs to be fixed! If multiple lights are lit on the bottom, then there is a short between lines and needs to be fixed!
+            Congrats! You now know how to test a cable! Or at least have gotten a crash course! :) If you need more explanation, head on over to the hardware hacking village!
+            </li>
+          <li>Congrats! You now know how to test a cable! Or at least have gotten a crash course! :) If you need more explaination, head on over to the hardware hacking village!</li> 
+        </br></br>
+        <h3 id="modify">How to Modify the 555 timer Circuit</h3>
+          <p>The badge uses a 555 timer in an astable configuration to create a pulse that in turn increments the 4017, such that a new line of the LAN cable is tested. More details on the about page. When the 555 timer is in an astable circuit, the output voltage alternates between high and low on a continuous basis, without any interaction. This oscillation is controlled by the values of 3 passive components: 1 capacitor and 2 resistors. Varying these parts will make it oscillate faster or slower! Here is an astable configured circuit:</p>
+          <img class="img-fluid" src="activites_images\astable-555-circuit.webp"></br></br>
+          <p> Using the schematic on the <a href="about.html">about page</a> and the <a href="ibom.html">interactive BOM</a> (or your badge), can you figure out which components on the badge control the oscillation?</p>
+          <details>
+            <summary>Click for Answer</summary>
+              <p>R1, R2, and C2 are the components on the back of the badge, at the top!</p>
+          </details>
+        </br></br>
+          <p> Using the <a href="ibom.html">interactive BOM</a>, can you figure out their values?</p>
+          <details>
+            <summary>Click for Answer</summary>
+              <p>R1 = 10k Ω, R2 = 150k Ω, and C2 = 4.7 uF</p>
+          </details>
+        </br></br>
+        <p>Scour the web to find a 555 astable calculator. Can you use it to figure out how fast the pulse should be with those values? You may need to do some SI unit conversions depending on the calculator!</p>
+        <details>
+          <summary>Click for Answer</summary>
+            <p>roughly 1 hz... aka about a half second on and off, with one full cycle taking 1 second</p>
+        </details>
+      </br></br>
+      <p>You now should have a decent understanding how the 555 timer is configured on your badge! Play with the calculator you found to theoretically see how fast or slow you could get your badge to oscillate!</p>
+      <p>Enough theory... now's the time to do it for real! Head over to the hardware hacking village if you are not already there! </p> 
+      <p>First decide what changes you are going to make using your 555 calculator. Creativity and experimentation with the calculator can limit how many parts you need to remove/add. Work with the village volunteers to verify we have the parts you want to use before preceding! You may need to change your plans depending on what is available. Don't start removing things until you have the replacement parts in hand. These are the <a href="https://www.amazon.com/BOJACK-Capacitor-Multilayer-Monolithic-Assortment/dp/B085RDTCCV/">capacitors</a> and <a href="https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/">resistors</a> the village has.</p>
+      <p>With your parts in hand, you can now remove the parts you want to change. Before you start, ensure your badge is OFF or remove the battery! The badge uses surface mount parts. To remove, use a globular amount (technical term) of solder on your iron, such that both soldered ends of the part you wish to remove are being touched/heated by the glob. Then simply swipe the part off! More than likely the small part is stuck on the glob on the iron, have tweezers ready to flick it off. Or use a tip cleaning sponge to remove.</p>
+      <img class="img-fluid" src="activites_images\removal.gif">
+      <p>Now its time to add the new part! For ease, these parts are through-hole parts. They are meant to go through holes on the PCB (printed circuit board), but for our purposes we will be soldering them to the surface mount pads. Bend and trim the legs of your new part such that they are well positioned for both sides of the surface pads. You can make this as tidy or as messy as you want! Solder one leg. Now readjust the second leg, and solder it! Booya! New part is on!</p>
+      <img class="img-fluid" src="activites_images\add.gif">
+      <p>Now repeat the process for all the parts neccesary for your plan!</p>
+      <p>All done? Turn your badge on and bask in the glory of your newly modified badge! Pretty cool huh? Nice work!</p>
+      <img class="img-fluid" src="activites_images\speedtest.gif">
+      <p>I hear there is a CTF challenge that has something to do with the 555 timing circuit...</p>
+      </main>
+  
+      <footer class="mt-auto text-white-50">
+        <p>kernelcon 2024 | zonksec</p>
+      </footer>
+    </div>
+  </body>
+  
+  </html>
