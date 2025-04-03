@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>[a]nalyze [i]nternet badge | kernelcon 2024</title>
+  <title>race condition | kernelcon 2025</title>
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -68,76 +68,83 @@
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
       <div>
-        <h3 class="float-md-start mb-0">[a]nalyze [i]nternet badge</h3>
+        <h3 class="float-md-start mb-0">race condition badge</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
           <a class="nav-link fw-bold py-1 px-0" href="about.html">About</a>
           <a class="nav-link fw-bold py-1 px-0" href="ibom.html">Interactive BOM</a>
-          <a class="nav-link fw-bold py-1 px-0 active" href="activities.html">Activities</a>
+          <a class="nav-link fw-bold py-1 px-0 active" href="activities.html">Activity</a>
           <a class="nav-link fw-bold py-1 px-0" href="past_badges.html">Past Badges</a>
         </nav>
       </div>
+      <a class="btn btn-primary" href="https://leaderboard.kernelcon.org/" role="button">Leaderboard</a>
     </header>
-
+    
     <main class="px-3">
-        <li><a href="#assemble">How to Make Remote Removable</a></li>
-        <li><a href="#make">How to Make a Cable</a></li>
-        <li><a href="#test">How to Test a Cable</a></li>
-        <li><a href="#modify">How to Modify the 555 timer Circuit</a></li>
-        </br>
-        <h3 id="assemble">How to Make Remote Removable</h3>
-          <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5B0F5jGeSQU?si=dFbO8E85Dh4lR0-t" allowfullscreen></iframe></div></p>
-          </br></br>
-        <h3 id="make">How to Make a Cable</h3>
-          <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NWhoJp8UQpo?si=-BrJV-TJJPTrYrce&amp;start=82" allowfullscreen></iframe></div></p>
-          <img class="img-fluid" src="activites_images\wiring.gif">
-          <p>Note: There is a sticker in your conference bag with an ethernet pinout as well!</p>
-          </br></br>
-        <h3 id="test">How to Test a Cable</h3>
-          <li>Connect the cable you want to test to the head and the remote of the badge.</li> 
-          <li>Next, turn on the badge.</li> 
-          <li>Now, observe the lights!</li> 
-          <li>The bank of lights on the head (top) indicate which line of the cable is being tested. If there is no continuity for that line, it will not light! This would mean your cable has an issue and needs to be investigated and fixed! If there is continuity, a light will be lit on the head and remote bank of lights (bottom). The bottom bank indicates where the line is connected on the other end. This line # should be the same on the top and bottom (for non-crossover cables). If it's not, the cable ordering is incorrect and needs to be fixed! If multiple lights are lit on the bottom, then there is a short between lines and needs to be fixed!
-            Congrats! You now know how to test a cable! Or at least have gotten a crash course! :) If you need more explanation, head on over to the hardware hacking village!
-            </li>
-          <li>Congrats! You now know how to test a cable! Or at least have gotten a crash course! :) If you need more explaination, head on over to the hardware hacking village!</li> 
-        </br></br>
-        <h3 id="modify">How to Modify the 555 timer Circuit</h3>
-          <p>The badge uses a 555 timer in an astable configuration to create a pulse that in turn increments the 4017, such that a new line of the LAN cable is tested. More details on the about page. When the 555 timer is in an astable circuit, the output voltage alternates between high and low on a continuous basis, without any interaction. This oscillation is controlled by the values of 3 passive components: 1 capacitor and 2 resistors. Varying these parts will make it oscillate faster or slower! Here is an astable configured circuit:</p>
-          <img class="img-fluid" src="activites_images\astable-555-circuit.webp"></br></br>
-          <p> Using the schematic on the <a href="about.html">about page</a> and the <a href="ibom.html">interactive BOM</a> (or your badge), can you figure out which components on the badge control the oscillation?</p>
-          <details>
-            <summary>Click for Answer</summary>
-              <p>R1, R2, and C2 are the components on the back of the badge, at the top!</p>
-          </details>
-        </br></br>
-          <p> Using the <a href="ibom.html">interactive BOM</a>, can you figure out their values?</p>
-          <details>
-            <summary>Click for Answer</summary>
-              <p>R1 = 10k Ω, R2 = 150k Ω, and C2 = 4.7 uF</p>
-          </details>
-        </br></br>
-        <p>Scour the web to find a 555 astable calculator. Can you use it to figure out how fast the pulse should be with those values? You may need to do some SI unit conversions depending on the calculator!</p>
-        <details>
-          <summary>Click for Answer</summary>
-            <p>roughly 1 hz... aka about a half second on and off, with one full cycle taking 1 second</p>
-        </details>
-      </br></br>
-      <p>You now should have a decent understanding how the 555 timer is configured on your badge! Play with the calculator you found to theoretically see how fast or slow you could get your badge to oscillate!</p>
-      <p>Enough theory... now's the time to do it for real! Head over to the hardware hacking village if you are not already there! </p> 
-      <p>First decide what changes you are going to make using your 555 calculator. Creativity and experimentation with the calculator can limit how many parts you need to remove/add. Work with the village volunteers to verify we have the parts you want to use before preceding! You may need to change your plans depending on what is available. Don't start removing things until you have the replacement parts in hand. These are the <a href="https://www.amazon.com/BOJACK-Capacitor-Multilayer-Monolithic-Assortment/dp/B085RDTCCV/">capacitors</a> and <a href="https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/">resistors</a> the village has.</p>
-      <p>With your parts in hand, you can now remove the parts you want to change. Before you start, ensure your badge is OFF or remove the battery! The badge uses surface mount parts. To remove, use a globular amount (technical term) of solder on your iron, such that both soldered ends of the part you wish to remove are being touched/heated by the glob. Then simply swipe the part off! More than likely the small part is stuck on the glob on the iron, have tweezers ready to flick it off. Or use a tip cleaning sponge to remove.</p>
-      <img class="img-fluid" src="activites_images\removal.gif">
-      <p>Now its time to add the new part! For ease, these parts are through-hole parts. They are meant to go through holes on the PCB (printed circuit board), but for our purposes we will be soldering them to the surface mount pads. Bend and trim the legs of your new part such that they are well positioned for both sides of the surface pads. You can make this as tidy or as messy as you want! Solder one leg. Now readjust the second leg, and solder it! Booya! New part is on!</p>
-      <img class="img-fluid" src="activites_images\add.gif">
-      <p>Now repeat the process for all the parts neccesary for your plan!</p>
-      <p>All done? Turn your badge on and bask in the glory of your newly modified badge! Pretty cool huh? Nice work!</p>
-      <img class="img-fluid" src="activites_images\speedtest.gif">
-      <p>I hear there is a CTF challenge that has something to do with the 555 timing circuit...</p>
+        <h3>Build a Bonus Track</h3>
+        <p><i>This is a great beginer activity! If you have ever wanted to learn to solder, now's your chance! There are volunteers to help!</i></p>
+        <img class="img-fluid" src="images\1s.jpg">
+        <p>In addition to the onboard track, the badge has a capability to have bonus tracks! (or entirely custom ones if you are so inclined). The bonus track activity will have you build an additional track that can be used on your badge. To complete this activity you will be soldering headers, tracing traces, adding jumper wires, and installing some standoffs.</p>
+        <p>Head to the Badge Village area to collect materials. Note: Limit 1 track per attendee. Chose wisely! Materials are not "to-go" until the end of the con, we want to give priorty to folks who want to sit and complete it at the con.</p>
+        <p>Before we start, turn off your badge and remove the batteries to be safe!</p>
+        <p>Let's begin!</p>
+        </br><hr></br>
+        <h4>Install Standoffs</h4>
+        <p>Each bonus track has 3 standoffs to support the track. There are additional holes in the bonus tracks to let the LEDs shine through, so be sure to insert the standoffs in the right holes! Simply insert the standoff from the bottom of the bonus track, and thread the nut on the top side. Finger tight is plenty!</p>
+        <img class="img-fluid" src="images\8s.jpg">
+        <img class="img-fluid" src="images\9s.jpg">
+        <img class="img-fluid" src="images\10s.jpg">
+        <img class="img-fluid" src="images\11s.jpg">
+        </br><hr></br>
+        <h4>Install Headers</h4>
+        <p>Next we install the male and female headers. If they are not pre-cut, we need to cut them to only have 5 pins. The male header (one with prongs on both sides seen below) can be cut to 5 pins without sacrifices any pins. Cut between the 5th and 6th pins from the end.</p>
+        <img class="img-fluid" src="images\2s.jpg">
+        <p>Unfortunately, we have to sacrifice a pin to cut the female header. So cut right on top of the 6th pin as seen in the photo below.</p>
+        <img class="img-fluid" src="images\3s.jpg">
+        <p>Once its cut, you can clean up what remains of the 6th pin. But do be careful to not snip too close to the pins you need. If you do, it could ruin it. Its better to leave excess! See how the clean up is done below.</p>
+        <img class="img-fluid" src="images\4s.jpg">
+        <img class="img-fluid" src="images\5s.jpg">
+        <img class="img-fluid" src="images\6s.jpg">
+        <p>Now put the male and female headers together!</p>
+        <img class="img-fluid" src="images\7s.jpg">
+        <p>Now insert the assemble into the pin holes on both the bonus track PCB and badge PCB. I have the male side on the badge PCB, but either way works!</p>
+        <img class="img-fluid" src="images\12s.jpg">
+        <p>We are now ready to solder! Check out the infographic below for a crash course or a nice review. If you want help, grab a volunteer who will be happy to help!</p>
+        <img class="img-fluid" src="images\howto.png">
+        <p>With the standoffs installed, the assembly should be stable and you can solder it right on the table. Start with the top of the bonus track. Work you way down, pin by pin till done!</p>
+        <img class="img-fluid" src="images\13s.jpg">
+        <p>Flip the assembly and do the backside!</p>
+        <img class="img-fluid" src="images\14s.jpg">
+        <p>Booya! You are now done soldering the headers! Nice job! Take a peak at the labels on the badge silkscreen, they will be important later!</p>
+        <img class="img-fluid" src="images\15s.jpg">
+        </br><hr></br>
+        <h4>Jump the Detect Pad</h4>
+        <p>First remove the bonus track from the badge if you still have it attached. There is a pad on the back of the bonus track that needs to be "jumped". This just means adding a solder glob to bridge the two pads together! Simply hold your iron across the two pads and feed solder into it. Pull the iron away and the pads should be jumped together. If you are having troubles, try lowering the temp of the iron, this makes it easy to bridge the pads.</p>
+        <img class="img-fluid" src="images\25s.jpg">
+        <img class="img-fluid" src="images\26s.jpg">
+        </br><hr></br>
+        <h4>Trace and Add Jumper Wires</h4>
+        <p>Last step! Time for tracing and jumper wires. Take a look at the back of the bonus track, there are some pads along the top. You need to follow their traces on the PCB, through the header, and to the badge PCB where they are labeled. Once you figure out what goes where, you can solder jumper wires!</p>
+        <p><i>wow, much puzzle!</i></p>
+        <p>Once you figure out where a jumper wire needs to be, we first strip the wire. Take the wire strippers, open them, place the wire in the 22 AWG hole, close them, and pull away! This will strip shielding off and expose bare wire!</p>
+        <img class="img-fluid" src="images\16s.jpg">
+        <img class="img-fluid" src="images\17s.jpg">
+        <p>Twist the wire end to keep it from freying. Now add solder to the pad you wish to solder to; a nice puddle will do! With the puddle molten, push the wire in, then remove the iron and let the solder set. You have soldered a jumper wire end!</p>
+        <img class="img-fluid" src="images\18s.jpg">
+        <img class="img-fluid" src="images\19s.jpg">
+        <img class="img-fluid" src="images\20s.jpg">
+        <p>Now repeat for the 3 connections you need to complete: starts, track, and finish/end. You can keep things tidy by triming the wire to length!</p>
+        <img class="img-fluid" src="images\21s.jpg">
+        <p>You didn't think I was going to show you the back of a completed track so you can see how it gets connected, did you?! Trace those traces and get things connected! :) </p>
+        <h4>Race!</h4>
+        <p>If all went well, you can power on your badge and insert the completed bonus track. The badge should detect the track and display "bonus track".</p>
+        <img class="img-fluid" src="images\bonustrack.gif">
+        <p>You can start a race by holding the start pad like you normally would! You can also use the config menu to change the difficulty like you would for the normal badge track. Race on!</p>
+        <img class="img-fluid" src="images\24s.jpg">
       </main>
   
       <footer class="mt-auto text-white-50">
-        <p>kernelcon 2024 | zonksec</p>
+        <p>kernelcon 2025 | zonksec</p>
       </footer>
     </div>
   </body>

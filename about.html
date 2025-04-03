@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>[a]nalyze [i]nternet badge | kernelcon 2024</title>
+    <title>race condition | kernelcon 2025</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -66,27 +66,40 @@
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
     <div>
-      <h3 class="float-md-start mb-0">[a]nalyze [i]nternet badge</h3>
+      <h3 class="float-md-start mb-0">race condition badge</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
         <a class="nav-link fw-bold py-1 px-0 active" href="about.html">About</a>
         <a class="nav-link fw-bold py-1 px-0" href="ibom.html">Interactive BOM</a>
-        <a class="nav-link fw-bold py-1 px-0" href="activities.html">Activities</a>
+        <a class="nav-link fw-bold py-1 px-0" href="activities.html">Activity</a>
         <a class="nav-link fw-bold py-1 px-0" href="past_badges.html">Past Badges</a>
       </nav>
     </div>
+    <a class="btn btn-primary" href="https://leaderboard.kernelcon.org/" role="button">Leaderboard</a>
   </header>
 
     <main class="px-3">
       <p>&nbsp;</p>
       <h3>About The Badge</h3>
-      <p>Just like last year's badge, this badge has kept it old school... no microcontrollers! The "brains" of the badge are a 555 timer and a 4017 decade counter. These are used to test one line of a LAN cable at a time. There are two sets of LEDs on the badge, one on the head and one on the remote. The head LED indicates which line is being tested and the remote LED shows where that test signal appeared on the other end to ensure proper order. Head over to the activities portion of the site <a href="activities.html#make">learn how to test a cable</a>!
+      <p>This year's badge primary function is a race to see how fast you can make it from start to finish. There are 3 difficulty modes: easy, normal, and hard. These modes simply change how long the system will allow you to be "off track". In additional to the race functionality, there is a also a synthezier for playing music and a reaction test to see how quickly you can respond to a starting light. When inside the configration mode (hold to pad on top of flag pole) you can change diffuclty, turn the sound on/off, change idle LED patterns, view highscores, and view earned CTF flags. </p>
+      <p>The badge has an acheivement system. The more you complete, the more LED patterns and CTF flags you unlock! There are 8 levels to acheive: </p>
+      <div class="text-start">
+      <ul>
+        <li>Finish a race on "easy" mode</li>
+        <li>Finish a race on "norm" mode</li>
+        <li>Finish a race on "hard" mode</li>
+        <li>Finish a race on "easy" mode with a time of 30 or less</li>
+        <li>Finish a race on "norm" mode with a time of 60 or less</li>
+        <li>Finish a race on "hard" mode with a time of 80 or less</li>
+        <li>Finish a reaction test with a time under 10</li>
+        <li>Build and insert a bonus track (see <a href="activities.html">Activity</a> for more info)</li>
+        
+      </ul>
+    </div>
       <h3>Technical Bits</h3>
-      <p>The 555 timer is in an astable configuration, creating a 1 hz pulse. This pulse increments the 4017, which changes which output is pulled high to test each line in turn. The remaining outputs have ground potential. Each output is connected to one pin of the RJ45 jack, and the last output is connected to reset of the 4017 to make the count start over. This setup sends a voltage down 1 line of the cable at a time, in order, and then starts over.</p>
-      <p>Now here is where the <i>magic</i> is!</p> 
-      <p>Using a network of diodes (electronics' favorite one-way valve) each line of the cable is capable of being tested itself AND as a ground return path to support the testing of other lines. This way the remote end can be very simple. It just connects all lines of the cable together!  The line under test can then use any of the other lines to find a path back to ground, completing the circuit, and thus lighting some well placed LEDs to display what line is being tested and where the signal appeared on the other end. Ahhhh the elegance of analog circuits! :) </p>
+      <p>This year's badge is a deviation from the last two year's of kernelcon badges, which were analog designs with no microntrollers. The badge has a brain this year and it is a Raspberry Pi Pico. Turn's out its actually cheaper, and you end up with nicer quality parts, if you use an entire Pico. As opposed to a scratch build using the RP2040 (the main microcontroller on the Pico). So that's the route we went! The badge uses a TM1637 to drive the 7 segment display and is powered by 3 AAA batteries. It has 7 addressable RGB LEDs and a buzzer for all sorts of visual and audio shenangians.</p>
       <h3>Manufacturing</h3>
-      <p>The badge was designed and prototyped by zonksec (Tyler Rosonke). Assembly was done by <a href="https://cybercitycircuits.com/">Cyber City
+      <p>The badge was designed and prototyped by zonksec (Tyler Rosonke), with collaboration from popcorndan and elaboratreues. Assembly was done by <a href="https://cybercitycircuits.com/">Cyber City
         Circuits</a> in Augusta, GA.</p>
       <h3>Schematic</h3>
       <p>Yes. It's a bit hard to read on this page. <a href="badge_schematic.png" target="_blank">Open it in a new
@@ -95,7 +108,7 @@
     </main>
 
     <footer class="mt-auto text-white-50">
-      <p>kernelcon 2024 | zonksec</p>
+      <p>kernelcon 2025 | zonksec</p>
     </footer>
   </div>
 </body>
