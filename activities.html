@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>race condition | kernelcon 2025</title>
+  <title>off grid | kernelcon 2026</title>
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -68,7 +68,7 @@
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
       <div>
-        <h3 class="float-md-start mb-0">race condition badge</h3>
+        <h3 class="float-md-start mb-0">off grid badge</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
           <a class="nav-link fw-bold py-1 px-0" href="about.html">About</a>
@@ -77,74 +77,157 @@
           <a class="nav-link fw-bold py-1 px-0" href="past_badges.html">Past Badges</a>
         </nav>
       </div>
-      <a class="btn btn-primary" href="final_badge_data_export.json" role="button">Leaderboard</a>
     </header>
     
-    <main class="px-3">
-        <h3>Build a Bonus Track</h3>
-        <p><i>This is a great beginer activity! If you have ever wanted to learn to solder, now's your chance! There are volunteers to help!</i></p>
-        <img class="img-fluid" src="images\1s.jpg">
-        <p>In addition to the onboard track, the badge has a capability to have bonus tracks! (or entirely custom ones if you are so inclined). The bonus track activity will have you build an additional track that can be used on your badge. To complete this activity you will be soldering headers, tracing traces, adding jumper wires, and installing some standoffs.</p>
-        <p>Head to the Badge Village area to collect materials. Note: Limit 1 track per attendee. Chose wisely! Materials are not "to-go" until the end of the con, we want to give priorty to folks who want to sit and complete it at the con.</p>
-        <p>Before we start, turn off your badge and remove the batteries to be safe!</p>
-        <p>Let's begin!</p>
-        </br><hr></br>
-        <h4>Install Standoffs</h4>
-        <p>Each bonus track has 3 standoffs to support the track. There are additional holes in the bonus tracks to let the LEDs shine through, so be sure to insert the standoffs in the right holes! Simply insert the standoff from the bottom of the bonus track, and thread the nut on the top side. Finger tight is plenty!</p>
-        <img class="img-fluid" src="images\8s.jpg">
-        <img class="img-fluid" src="images\9s.jpg">
-        <img class="img-fluid" src="images\10s.jpg">
-        <img class="img-fluid" src="images\11s.jpg">
-        </br><hr></br>
-        <h4>Install Headers</h4>
-        <p>Next we install the male and female headers. If they are not pre-cut, we need to cut them to only have 5 pins. The male header (one with prongs on both sides seen below) can be cut to 5 pins without sacrifices any pins. Cut between the 5th and 6th pins from the end.</p>
-        <img class="img-fluid" src="images\2s.jpg">
-        <p>Unfortunately, we have to sacrifice a pin to cut the female header. So cut right on top of the 6th pin as seen in the photo below.</p>
-        <img class="img-fluid" src="images\3s.jpg">
-        <p>Once its cut, you can clean up what remains of the 6th pin. But do be careful to not snip too close to the pins you need. If you do, it could ruin it. Its better to leave excess! See how the clean up is done below.</p>
-        <img class="img-fluid" src="images\4s.jpg">
-        <img class="img-fluid" src="images\5s.jpg">
-        <img class="img-fluid" src="images\6s.jpg">
-        <p>Now put the male and female headers together!</p>
-        <img class="img-fluid" src="images\7s.jpg">
-        <p>Now insert the assemble into the pin holes on both the bonus track PCB and badge PCB. I have the male side on the badge PCB, but either way works!</p>
-        <img class="img-fluid" src="images\12s.jpg">
-        <p>We are now ready to solder! Check out the infographic below for a crash course or a nice review. If you want help, grab a volunteer who will be happy to help!</p>
-        <img class="img-fluid" src="images\howto.png">
-        <p>With the standoffs installed, the assembly should be stable and you can solder it right on the table. Start with the top of the bonus track. Work you way down, pin by pin till done!</p>
-        <img class="img-fluid" src="images\13s.jpg">
-        <p>Flip the assembly and do the backside!</p>
-        <img class="img-fluid" src="images\14s.jpg">
-        <p>Booya! You are now done soldering the headers! Nice job! Take a peak at the labels on the badge silkscreen, they will be important later!</p>
-        <img class="img-fluid" src="images\15s.jpg">
-        </br><hr></br>
-        <h4>Jump the Detect Pad</h4>
-        <p>First remove the bonus track from the badge if you still have it attached. There is a pad on the back of the bonus track that needs to be "jumped". This just means adding a solder glob to bridge the two pads together! Simply hold your iron across the two pads and feed solder into it. Pull the iron away and the pads should be jumped together. If you are having troubles, try lowering the temp of the iron, this makes it easy to bridge the pads.</p>
-        <img class="img-fluid" src="images\25s.jpg">
-        <img class="img-fluid" src="images\26s.jpg">
-        </br><hr></br>
-        <h4>Trace and Add Jumper Wires</h4>
-        <p>Last step! Time for tracing and jumper wires. Take a look at the back of the bonus track, there are some pads along the top. You need to follow their traces on the PCB, through the header, and to the badge PCB where they are labeled. Once you figure out what goes where, you can solder jumper wires!</p>
-        <p><i>wow, much puzzle!</i></p>
-        <p>Once you figure out where a jumper wire needs to be, we first strip the wire. Take the wire strippers, open them, place the wire in the 22 AWG hole, close them, and pull away! This will strip shielding off and expose bare wire!</p>
-        <img class="img-fluid" src="images\16s.jpg">
-        <img class="img-fluid" src="images\17s.jpg">
-        <p>Twist the wire end to keep it from freying. Now add solder to the pad you wish to solder to; a nice puddle will do! With the puddle molten, push the wire in, then remove the iron and let the solder set. You have soldered a jumper wire end!</p>
-        <img class="img-fluid" src="images\18s.jpg">
-        <img class="img-fluid" src="images\19s.jpg">
-        <img class="img-fluid" src="images\20s.jpg">
-        <p>Now repeat for the 3 connections you need to complete: starts, track, and finish/end. You can keep things tidy by triming the wire to length!</p>
-        <img class="img-fluid" src="images\21s.jpg">
-        <p>You didn't think I was going to show you the back of a completed track so you can see how it gets connected, did you?! Trace those traces and get things connected! :) </p>
-        <h4>Race!</h4>
-        <p>If all went well, you can power on your badge and insert the completed bonus track. The badge should detect the track and display "bonus track".</p>
-        <img class="img-fluid" src="images\bonustrack.gif">
-        <p>You can start a race by holding the start pad like you normally would! You can also use the config menu to change the difficulty like you would for the normal badge track. Race on!</p>
-        <img class="img-fluid" src="images\24s.jpg">
+    <main class="px-3 mt-4">
+        <p>Choose an activity below:</p>
+        <p>
+          <a href="#motor-crank" class="btn btn-outline-light">Initial Assembly</a>
+          <a href="#quest" class="btn btn-outline-light">Quest</a>
+          <a href="#weather-training" class="btn btn-outline-light">Weather Training</a>
+          <a href="#usb-charge" class="btn btn-outline-light">USB Charge Module</a>
+        </p>
+
+        <hr class="my-4">
+
+        <section id="motor-crank">
+          <h3>Initial Assembly</h3>
+          <p>First, gather your parts from your badge bag:</p>
+          <div class="d-inline-block text-start">
+            <ul>
+              <li>3x - #6 x 3/8" screws</li>
+              <li>1x - M2.5 x 8mm bolt</li>
+              <li>1x - thumb screw</li>
+              <li>1x - crank knob</li>
+              <li>1x - crank arm</li>
+              <li>1x - motor assembly</li>
+              <li>3x - weather reading dials (1 of each color)</li>
+            </ul>
+          </div>
+          <p>The only tool needed is a screwdriver, which are available at assembly tables near registartion and in the Badge Village.</p>
+          <p><a href="images/i1.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i1.jpg" /></a></p>
+
+          <h4>Motor to PCB Assembly</h4>
+          <p>Bend the connection tabs of the motor from their flat position to approximately a 45-degree angle upward—this helps them make good contact when assembled.</p>
+          <p><a href="images/i2.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i2.jpg" /></a></p>
+          <p>Next, position the motor on the back of the PCB. The motor connection tabs should be facing the large contact pads on the PCB.</p>
+          <p><a href="images/i3.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i3.jpg" /></a></p>
+          <p>While holding the motor in place, flip the board over so you can install the screws. Insert 2x of the #6 screws from the front of the PCB into the motor, ensuring the connection tabs and pads make contact. Tighten them securely.</p>
+          <p><a href="images/i4.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i4.jpg" /></a></p>
+          <p><a href="images/i5.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i5.jpg" /></a></p>
+          <p>After tightening the screws, verify that the motor connection tabs are making good contact with the pads on the PCB.</p>
+          <p><a href="images/i6.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i6.jpg" /></a></p>
+          <p><em>Optional:</em> If desired, a zip tie can be used to further secure the motor's electrical connectors to the PCB pads.</p>
+          <p>
+            <a href="images/zip1.jpg"><img class="img-fluid my-2 mx-1" style="max-width: 195px;" src="images/zip1.jpg" /></a>
+            <a href="images/zip2.jpg"><img class="img-fluid my-2 mx-1" style="max-width: 195px;" src="images/zip2.jpg" /></a>
+          </p>
+
+          <h4>Crank Assembly</h4>
+          <p>First, attach the crank knob to the crank arm using a #6 screw (the same type used to mount the motor). The M2.5 machine bolt will be used later. Note the recess in the part designed for the screw head—this confirms correct orientation. Tighten the screw fully; the hole depth is designed to leave the proper gap for free rotation.</p>
+          <p><a href="images/i7.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i7.jpg" /></a></p>
+          <p>The 3D print uses a <a href="https://blog.tommy.sh/posts/quick-tip-avoid-3d-printed-supports-with-sacrificial-bridge/" target="_blank">"sacrificial bridge"</a> that needs to be punched open. Use the tip of the screwdriver to open it. Push and twist.</p>
+          <p><a href="images/i8.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i8.jpg" /></a></p>
+          <p><a href="images/i9.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i9.jpg" /></a></p>
+          <p><a href="images/i10.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i10.jpg" /></a></p>
+          <p>Next, note the shape of the motor shaft and the complementary hole on the crank arm. Push the crank into position, ensuring the shapes are aligned.</p>
+          <p><a href="images/i11.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i11.jpg" /></a></p>
+          <p>Finally, secure the crank to the motor shaft using the M2.5 bolt.</p>
+          <p><a href="images/i12.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i12.jpg" /></a></p>
+
+          <h4>Weather Reading Dial Assembly</h4>
+          <p>First, place all 3 colored dials onto the thumb screw in any order.</p>
+          <p><a href="images/i13.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i13.jpg" /></a></p>
+          <p>Then, screw the thumb screw into the threaded hole at the center of the circle (technically a dodecagon-ish shape). The thumb screw only needs to be snug—just enough that the dials can hold their readings.</p>
+          <p><a href="images/i14.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i14.jpg" /></a></p>
+          <p>Your initial assembly is complete!</p>
+          <p><a href="images/i15.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/i15.jpg" /></a></p>
+        </section>
+
+        <hr class="my-4">
+
+        <section id="quest">
+          <h3>Quest</h3>
+          <p>Ready to embark on an interactive, narrative-driven adventure? The badge is your gateway to a quest that will take you all over the conference space, complete with challenges and tasks to be solved!</p>
+          <p><b>How It Works</b></p>
+          <p>There are kiosks scattered throughout the venue that will guide you on your journey—however, you must find the correct one for your current level. That's where <b>SCAN</b> mode comes in. It's a proximity scanner to help you locate your next kiosk. But be warned: it uses a lot of battery power, so use it sparingly!</p>
+          <p>Once you find the right kiosk, you'll need to build up a charge using <b>CHRG</b> mode. These are off-grid devices after all... they need to be powered! Simply enter the mode and crank until your meter is full, then insert the badge into the kiosk to proceed.</p>
+          <p>Each kiosk has a printer that will share more of the story, present you with clues, and give you tasks to complete next.</p>
+          <p><b>Rewards</b></p>
+          <p>As you complete quest levels, you'll unlock additional LED animation patterns for your badge! Use <b>LED</b> mode and rotate the crank to cycle through them.</p>
+          <p><b>Getting Started</b></p>
+          <p>Head to the Badge Village area and look for the sign that identifies the first kiosk.</p>
+        </section>
+
+        <hr class="my-4">
+
+        <section id="weather-training">
+          <h3>Weather Training</h3>
+          <p>Visit the Weather Training area to learn how to become an off-grid meteorologist! Touch screen kiosks will walk you through all of the sensor readings—temperature, humidity, and barometric pressure—and teach you how to use them to predict the weather.</p>
+          <p>Once you've completed your training, a series of simulations will test what you've learned. Can you predict what's coming based on the readings?</p>
+          <p>This area also features physical devices to demonstrate how the sensors work in real life: a heater, a pressure chamber, and a humidifier. Watch your badge react in real time!</p>
+        </section>
+
+        <hr class="my-4">
+
+        <section id="usb-charge">
+          <h3>USB Charge Module Kit</h3>
+          <p>In this activity, you'll solder and assemble a small PCB that lets you harness the crank power of your badge to charge devices via a USB-A port. Follow the instructions below to build your own!</p>
+          <p>First, gather your parts from a volunteer at the badge village table:</p>
+          <div class="d-inline-block text-start">
+            <ul>
+              <li>1x blank PCB</li>
+              <li>1x capacitor</li>
+              <li>1x female header</li>
+              <li>1x male header</li>
+              <li>1x USB-A port</li>
+            </ul>
+          </div>
+          <p><em>Click any image to enlarge.</em></p>
+          <p><a href="images/1.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/1.jpg" /></a></p>
+          <p>Next, insert the female header onto the back side of your badge as shown.</p>
+          <p><a href="images/2.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/2.jpg" /></a></p>
+          <p>New to soldering? Here's a quick reference guide:</p>
+          <p><a href="images/howto.png"><img class="img-fluid my-2" style="max-width: 400px;" src="images/howto.png" /></a></p>
+          <p>Now flip it over and, while pinching with your finger, solder one pin. Before soldering any more, make sure the header is aligned and flat on the PCB. With only one pin soldered, this is the easiest time to make adjustments.</p>
+          <p><a href="images/3.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/3.jpg" /></a></p>
+          <p>Once aligned and flat, solder the rest of the pins.</p>
+          <p><a href="images/4.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/4.jpg" /></a></p>
+          <p>Now insert the male header into the female header as shown.</p>
+          <p><a href="images/5.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/5.jpg" /></a></p>
+          <p>Next, insert the blank PCB. Note the pin alignment—make sure GND goes to GND and 5V goes to 5V.</p>
+          <p><a href="images/6.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/6.jpg" /></a></p>
+          <p>Again, start by soldering one pin and ensuring it's aligned and flat before proceeding to solder the rest of the pins.</p>
+          <p><a href="images/7.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/7.jpg" /></a></p>
+          <p><a href="images/8.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/8.jpg" /></a></p>
+          <p>Nice job! Now remove the PCB with the header attached. We'll populate the rest of the components on it.</p>
+          <p><a href="images/9.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/9.jpg" /></a></p>
+          <p>First, we're going to add the USB-A port. Insert the port onto the PCB, being careful to align all the pins before pressing too firmly—it may take a little finesse.</p>
+          <p><a href="images/10.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/10.jpg" /></a></p>
+          <p>Now solder one pin. Like before, this is the easiest time to make sure the port is aligned and flat. Check it from the side to ensure it's exactly where you want it.</p>
+          <p><a href="images/11.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/11.jpg" /></a></p>
+          <p><a href="images/12.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/12.jpg" /></a></p>
+          <p>Now solder the rest of the pins.</p>
+          <p><a href="images/13.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/13.jpg" /></a></p>
+          <p>Next, we're going to place the capacitor. This capacitor helps keep the voltage stable and smooth. Note the polarity markings—the capacitor has a white line to indicate its negative side, and the PCB has a plus sign to mark the positive side.</p>
+          <p><a href="images/14.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/14.jpg" /></a></p>
+          <p>Insert the capacitor, ensuring the polarity is correct.</p>
+          <p><a href="images/15.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/15.jpg" /></a></p>
+          <p>Now flip the board over and solder the legs of the capacitor.</p>
+          <p><a href="images/16.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/16.jpg" /></a></p>
+          <p>Now use some clippers to clip the excess length off. Note: clip just above the solder.</p>
+          <p><a href="images/17.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/17.jpg" /></a></p>
+          <p><a href="images/18.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/18.jpg" /></a></p>
+          <p>You did it! The board is now complete.</p>
+          <p><a href="images/19.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/19.jpg" /></a></p>
+          <p><a href="images/20.jpg"><img class="img-fluid my-2" style="max-width: 400px;" src="images/20.jpg" /></a></p>
+          <p>Nothing left to do but give it a test!</p>
+          <p><video class="img-fluid my-2" style="max-width: 400px;" controls><source src="images/vid.mp4" type="video/mp4">Your browser does not support the video tag.</video></p>
+        </section>
       </main>
   
       <footer class="mt-auto text-white-50">
-        <p>kernelcon 2025 | zonksec</p>
+        <p>kernelcon 2026 | built by zonksec</p>
       </footer>
     </div>
   </body>
