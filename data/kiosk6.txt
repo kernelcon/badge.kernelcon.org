@@ -1,0 +1,1023 @@
+2,6,004b12e0e1e0,connected,ok
+5,6,004b12e0e1e0,level_up,from:6
+604,6,004b12e0ec2c,connected,ok
+607,6,004b12e0ec2c,connected,ok
+611,6,004b12e0ec2c,level_up,from:6
+855,6,885721471f48,connected,ok
+855,6,885721471f48,wrong_level,badge:0_need:6
+931,6,885721474218,connected,ok
+931,6,885721474218,wrong_level,badge:0_need:6
+12,6,885721474328,connected,ok
+12,6,885721474328,wrong_level,badge:0_need:6
+80,6,004b12e1eadc,connected,ok
+80,6,004b12e1eadc,wrong_level,badge:0_need:6
+85,6,004b12e1eadc,connected,ok
+85,6,004b12e1eadc,wrong_level,badge:0_need:6
+89,6,004b12e1eadc,connected,ok
+89,6,004b12e1eadc,wrong_level,badge:0_need:6
+530,6,004b12e1eadc,connected,ok
+530,6,004b12e1eadc,wrong_level,badge:0_need:6
+535,6,004b12e1eadc,connected,ok
+535,6,004b12e1eadc,wrong_level,badge:0_need:6
+5,6,88572146763c,connected,ok
+5,6,88572146763c,wrong_level,badge:0_need:6
+9,6,88572146763c,connected,ok
+9,6,88572146763c,wrong_level,badge:0_need:6
+18,6,88572146763c,connected,ok
+18,6,88572146763c,wrong_level,badge:0_need:6
+23,6,88572146763c,connected,ok
+23,6,88572146763c,wrong_level,badge:0_need:6
+27,6,88572146763c,connected,ok
+27,6,88572146763c,wrong_level,badge:0_need:6
+50,6,88572146763c,connected,ok
+50,6,88572146763c,wrong_level,badge:0_need:6
+62,6,88572146763c,connected,ok
+63,6,88572146763c,wrong_level,badge:0_need:6
+67,6,88572146763c,connected,ok
+71,6,88572146763c,connected,ok
+75,6,88572146763c,connected,ok
+75,6,88572146763c,wrong_level,badge:0_need:6
+76,6,88572146763c,connected,ok
+76,6,88572146763c,wrong_level,badge:0_need:6
+82,6,88572146763c,connected,ok
+82,6,88572146763c,wrong_level,badge:0_need:6
+83,6,88572146763c,connected,ok
+83,6,88572146763c,wrong_level,badge:0_need:6
+112,6,88572146763c,connected,ok
+113,6,88572146763c,wrong_level,badge:0_need:6
+121,6,88572146763c,connected,ok
+121,6,88572146763c,wrong_level,badge:0_need:6
+177,6,88572146763c,connected,ok
+177,6,88572146763c,wrong_level,badge:0_need:6
+211,6,88572146763c,connected,ok
+212,6,88572146763c,wrong_level,badge:0_need:6
+218,6,88572146763c,connected,ok
+219,6,88572146763c,wrong_level,badge:0_need:6
+226,6,88572146763c,connected,ok
+226,6,88572146763c,wrong_level,badge:0_need:6
+241,6,88572146763c,connected,ok
+241,6,88572146763c,wrong_level,badge:0_need:6
+545,6,885721474198,connected,ok
+545,6,885721474198,wrong_level,badge:0_need:6
+22,6,004b12e111cc,connected,ok
+22,6,004b12e111cc,wrong_level,badge:0_need:6
+2,6,88572147511c,connected,ok
+3,6,88572147511c,wrong_level,badge:0_need:6
+7,6,88572147511c,connected,ok
+8,6,88572147511c,wrong_level,badge:0_need:6
+34,6,885721471ed4,connected,ok
+34,6,885721471ed4,wrong_level,badge:0_need:6
+52,6,885721474fc4,connected,ok
+52,6,885721474fc4,wrong_level,badge:0_need:6
+55,6,885721474fc4,connected,ok
+55,6,885721474fc4,wrong_level,badge:0_need:6
+57,6,885721474fc4,connected,ok
+57,6,885721474fc4,wrong_level,badge:0_need:6
+61,6,885721474fc4,connected,ok
+61,6,885721474fc4,wrong_level,badge:0_need:6
+71,6,885721419678,connected,ok
+71,6,885721419678,wrong_level,badge:0_need:6
+81,6,885721474fc4,connected,ok
+81,6,885721474fc4,wrong_level,badge:0_need:6
+2,6,885721467698,connected,ok
+2,6,885721467698,wrong_level,badge:0_need:6
+36,6,885721471f0c,connected,ok
+36,6,885721471f0c,wrong_level,badge:0_need:6
+117,6,8857214676ac,connected,ok
+117,6,8857214676ac,wrong_level,badge:0_need:6
+139,6,8857214676ac,connected,ok
+139,6,8857214676ac,wrong_level,badge:0_need:6
+3,6,885721471f60,connected,ok
+3,6,885721471f60,wrong_level,badge:0_need:6
+29,6,885721471f60,connected,ok
+29,6,885721471f60,wrong_level,badge:0_need:6
+13,6,88572147418c,connected,ok
+13,6,88572147418c,wrong_level,badge:2_need:6
+15,6,88572147418c,connected,ok
+15,6,88572147418c,wrong_level,badge:2_need:6
+161,6,8857214750d4,connected,ok
+161,6,8857214750d4,wrong_level,badge:0_need:6
+164,6,8857214750d4,connected,ok
+164,6,8857214750d4,wrong_level,badge:0_need:6
+170,6,8857214750d4,connected,ok
+170,6,8857214750d4,wrong_level,badge:0_need:6
+199,6,8857214750d4,connected,ok
+200,6,8857214750d4,wrong_level,badge:0_need:6
+216,6,8857214746e4,connected,ok
+216,6,8857214746e4,wrong_level,badge:0_need:6
+218,6,8857214746e4,connected,ok
+218,6,8857214746e4,wrong_level,badge:0_need:6
+226,6,8857214746e4,connected,ok
+226,6,8857214746e4,wrong_level,badge:0_need:6
+39,6,885721467648,connected,ok
+39,6,885721467648,wrong_level,badge:0_need:6
+64,6,8857214196ac,connected,ok
+64,6,8857214196ac,wrong_level,badge:0_need:6
+76,6,8857214196ac,connected,ok
+76,6,8857214196ac,wrong_level,badge:0_need:6
+92,6,8857214672ac,connected,ok
+92,6,8857214672ac,wrong_level,badge:1_need:6
+170,6,885721475024,connected,ok
+170,6,885721475024,wrong_level,badge:0_need:6
+193,6,885721472880,connected,ok
+193,6,885721472880,wrong_level,badge:0_need:6
+201,6,885721472880,connected,ok
+201,6,885721472880,wrong_level,badge:0_need:6
+275,6,885721472898,connected,ok
+275,6,885721472898,wrong_level,badge:0_need:6
+807,6,140808a38f50,connected,ok
+807,6,140808a38f50,wrong_level,badge:1_need:6
+823,6,140808a38f50,connected,ok
+823,6,140808a38f50,wrong_level,badge:1_need:6
+868,6,885721467698,connected,ok
+869,6,885721467698,wrong_level,badge:2_need:6
+2,6,140808a23210,connected,ok
+2,6,140808a23210,wrong_level,badge:1_need:6
+88,6,885721474330,connected,ok
+89,6,885721474330,wrong_level,badge:0_need:6
+91,6,885721474330,connected,ok
+92,6,885721474330,wrong_level,badge:0_need:6
+1,6,885721472e58,connected,ok
+1,6,885721472e58,wrong_level,badge:2_need:6
+3,6,8857214727c8,connected,ok
+3,6,8857214727c8,extra_cmd_failed,expected:true_got:Badge boosted: False
+14,6,8857214727c8,connected,ok
+14,6,8857214727c8,extra_cmd_failed,expected:true_got:Badge boosted: False
+150,6,885721474534,connected,ok
+150,6,885721474534,wrong_level,badge:0_need:6
+181,6,885721474534,connected,ok
+181,6,885721474534,wrong_level,badge:0_need:6
+186,6,885721474534,connected,ok
+188,6,885721474534,extra_cmd_failed,expected:true_got:State saved (encrypted): {'led_mode': 0, 'charge': 0, 'quest_level': 0, 'game_won': False, 'temp_maxed': False, 'humidity_maxed': False, 'pressure_maxed': False, 'training_complete': False, 'training_printed': False, 'mode': 4, 'QA_pass': 1}
+195,6,885721474534,connected,ok
+195,6,885721474534,wrong_level,badge:0_need:6
+211,6,885721474534,connected,ok
+211,6,885721474534,wrong_level,badge:0_need:6
+221,6,unknown,extra_cmd_failed,expected:true_got:State saved (encrypted): {'led_mode': 0, 'charge': 0, 'quest_level': 0, 'game_won': False, 'temp_maxed': False, 'humidity_maxed': False, 'pressure_maxed': False, 'training_complete': False, 'training_printed': False, 'mode': 3, 'QA_pass': 1}
+1,6,885721474564,connected,ok
+1,6,885721474564,wrong_level,badge:2_need:6
+2,6,8857214747dc,connected,ok
+2,6,8857214747dc,wrong_level,badge:0_need:6
+261,6,885721474308,connected,ok
+288,6,unknown,extra_cmd_failed,expected:true_got:State saved (encrypted): {'led_mode': 0, 'charge': 2000, 'quest_level': 0, 'game_won': False, 'temp_maxed': False, 'humidity_maxed': False, 'pressure_maxed': False, 'training_complete': False, 'training_printed': False, 'mode': 1, 'QA_pass': 1}
+291,6,885721474308,connected,ok
+291,6,885721474308,wrong_level,badge:0_need:6
+311,6,885721474308,connected,ok
+311,6,885721474308,wrong_level,badge:0_need:6
+320,6,8857214750fc,connected,ok
+320,6,8857214750fc,wrong_level,badge:0_need:6
+328,6,885721474308,connected,ok
+328,6,885721474308,wrong_level,badge:0_need:6
+468,6,885721474308,connected,ok
+468,6,885721474308,wrong_level,badge:0_need:6
+472,6,885721474308,connected,ok
+472,6,885721474308,wrong_level,badge:0_need:6
+67,6,8857214726d0,connected,ok
+67,6,8857214726d0,wrong_level,badge:0_need:6
+70,6,8857214726d0,connected,ok
+70,6,8857214726d0,wrong_level,badge:0_need:6
+73,6,8857214726d0,connected,ok
+101,6,88572147467c,connected,ok
+101,6,88572147467c,wrong_level,badge:3_need:6
+361,6,885721472800,connected,ok
+361,6,885721472800,wrong_level,badge:0_need:6
+471,6,88572141971c,connected,ok
+471,6,88572141971c,wrong_level,badge:1_need:6
+3,6,885721472e08,connected,ok
+3,6,885721472e08,wrong_level,badge:0_need:6
+60,6,885721472e48,connected,ok
+61,6,885721472e48,extra_cmd_failed,expected:true_got:Badge boosted: False
+64,6,885721472e48,connected,ok
+65,6,885721472e48,extra_cmd_failed,expected:true_got:Badge boosted: False
+83,6,885721472e48,connected,ok
+83,6,885721472e48,extra_cmd_failed,expected:true_got:Badge boosted: False
+416,6,8857214727c8,connected,ok
+417,6,8857214727c8,extra_cmd_failed,expected:true_got:Badge boosted: False
+615,6,885721472e48,connected,ok
+616,6,885721472e48,extra_cmd_failed,expected:true_got:Badge boosted: False
+629,6,885721472e48,connected,ok
+629,6,885721472e48,extra_cmd_failed,expected:true_got:Badge boosted: False
+738,6,885721475024,connected,ok
+739,6,885721475024,wrong_level,badge:3_need:6
+1171,6,8857214727c8,connected,ok
+1171,6,8857214727c8,extra_cmd_failed,expected:true_got:Badge boosted: False
+1235,6,140808a38f50,connected,ok
+1236,6,140808a38f50,wrong_level,badge:2_need:6
+21,6,885721475010,connected,ok
+21,6,885721475010,wrong_level,badge:3_need:6
+68,6,885721472e48,connected,ok
+69,6,885721472e48,extra_cmd_failed,expected:true_got:Badge boosted: False
+72,6,885721472e48,connected,ok
+72,6,885721472e48,extra_cmd_failed,expected:true_got:Badge boosted: False
+4,6,885721475010,connected,ok
+4,6,885721475010,wrong_level,badge:5_need:6
+1,6,8857214746e4,connected,ok
+1,6,8857214746e4,wrong_level,badge:2_need:6
+285,6,885721474564,connected,ok
+286,6,885721474564,wrong_level,badge:5_need:6
+2,6,8857214676ac,connected,ok
+2,6,8857214676ac,wrong_level,badge:2_need:6
+171,6,88572147453c,connected,ok
+171,6,88572147453c,wrong_level,badge:0_need:6
+183,6,88572147453c,connected,ok
+183,6,88572147453c,wrong_level,badge:0_need:6
+185,6,88572147453c,connected,ok
+185,6,88572147453c,wrong_level,badge:0_need:6
+1,6,8857214727c8,connected,ok
+1,6,8857214727c8,extra_cmd_failed,expected:true_got:Badge boosted: False
+18,6,8857214727c8,connected,ok
+18,6,8857214727c8,extra_cmd_failed,expected:true_got:Badge boosted: False
+39,6,8857214727c8,connected,ok
+39,6,8857214727c8,extra_cmd_failed,expected:true_got:Badge boosted: False
+2,6,8857214676ac,connected,ok
+3,6,8857214676ac,wrong_level,badge:2_need:6
+32,6,88572147461c,connected,ok
+32,6,88572147461c,wrong_level,badge:3_need:6
+488,6,8857214727c8,connected,ok
+492,6,8857214727c8,level_up,from:6
+505,6,885721472e48,connected,ok
+509,6,885721472e48,level_up,from:6
+755,6,8857214196e8,connected,ok
+755,6,8857214196e8,wrong_level,badge:3_need:6
+769,6,8857214196e8,connected,ok
+769,6,8857214196e8,wrong_level,badge:3_need:6
+938,6,885721472898,connected,ok
+938,6,885721472898,wrong_level,badge:2_need:6
+2,6,885721474600,connected,ok
+3,6,885721474600,discharge_failed,battery_not_full
+9,6,885721474600,connected,ok
+9,6,885721474600,discharge_failed,battery_not_full
+20,6,885721474600,connected,ok
+20,6,885721474600,discharge_failed,battery_not_full
+41,6,885721474600,connected,ok
+42,6,885721474600,discharge_failed,battery_not_full
+47,6,885721474600,connected,ok
+47,6,885721474600,discharge_failed,battery_not_full
+49,6,885721474600,connected,ok
+50,6,885721474600,discharge_failed,battery_not_full
+63,6,885721474600,connected,ok
+67,6,885721474600,level_up,from:6
+120,6,8857214747d0,connected,ok
+120,6,8857214747d0,extra_cmd_failed,expected:true_got:Badge boosted: False
+133,6,140808a24ea0,connected,ok
+133,6,140808a24ea0,wrong_level,badge:0_need:6
+229,6,004b12e1eadc,connected,ok
+229,6,004b12e1eadc,wrong_level,badge:0_need:6
+253,6,004b12e1eadc,connected,ok
+253,6,004b12e1eadc,wrong_level,badge:0_need:6
+26,6,885721474fb0,connected,ok
+26,6,885721474fb0,extra_cmd_failed,expected:true_got:Badge boosted: False
+21,6,885721467698,connected,ok
+21,6,885721467698,extra_cmd_failed,expected:true_got:Badge boosted: False
+24,6,885721467698,connected,ok
+24,6,885721467698,extra_cmd_failed,expected:true_got:Badge boosted: False
+64,6,885721467698,connected,ok
+65,6,885721467698,extra_cmd_failed,expected:true_got:Badge boosted: False
+3,6,885721474564,connected,ok
+6,6,885721474564,level_up,from:6
+2,6,885721467380,connected,ok
+5,6,885721467380,level_up,from:6
+18,6,8857214750d4,connected,ok
+21,6,8857214750d4,level_up,from:6
+296,6,885721467698,connected,ok
+300,6,885721467698,level_up,from:6
+342,6,885721472734,connected,ok
+342,6,885721472734,extra_cmd_failed,expected:true_got:Badge boosted: False
+346,6,885721472734,connected,ok
+346,6,885721472734,extra_cmd_failed,expected:true_got:Badge boosted: False
+357,6,885721472734,connected,ok
+357,6,885721472734,extra_cmd_failed,expected:true_got:Badge boosted: False
+477,6,004b12e1eadc,connected,ok
+477,6,004b12e1eadc,wrong_level,badge:1_need:6
+479,6,004b12e1eadc,connected,ok
+479,6,004b12e1eadc,wrong_level,badge:1_need:6
+779,6,8857214746a4,connected,ok
+779,6,8857214746a4,wrong_level,badge:1_need:6
+2,6,885721474190,connected,ok
+2,6,885721474190,wrong_level,badge:5_need:6
+88,6,88572147478c,connected,ok
+88,6,88572147478c,wrong_level,badge:5_need:6
+113,6,140808a23210,connected,ok
+114,6,140808a23210,wrong_level,badge:3_need:6
+231,6,885721475010,connected,ok
+232,6,885721475010,wrong_level,badge:5_need:6
+2,6,885721472760,connected,ok
+8,6,885721472760,connected,ok
+8,6,885721472760,extra_cmd_failed,expected:true_got:Badge boosted: False
+61,6,004b12e1eadc,connected,ok
+61,6,004b12e1eadc,wrong_level,badge:3_need:6
+1,6,885721474364,connected,ok
+1,6,885721474364,wrong_level,badge:5_need:6
+19,6,8857214196b4,connected,ok
+22,6,8857214196b4,level_up,from:6
+60,6,140808a22644,connected,ok
+61,6,140808a22644,wrong_level,badge:0_need:6
+74,6,140808a22644,connected,ok
+74,6,140808a22644,wrong_level,badge:0_need:6
+91,6,885721467698,connected,ok
+91,6,885721467698,wrong_level,badge:7_need:6
+36,6,140808a23210,connected,ok
+36,6,140808a23210,wrong_level,badge:4_need:6
+2,6,8857214747d0,connected,ok
+5,6,8857214747d0,level_up,from:6
+25,6,885721471f68,connected,ok
+29,6,885721471f68,level_up,from:6
+70,6,885721467600,connected,ok
+70,6,885721467600,wrong_level,badge:0_need:6
+71,6,885721467600,connected,ok
+71,6,885721467600,wrong_level,badge:0_need:6
+81,6,885721467600,connected,ok
+81,6,885721467600,wrong_level,badge:0_need:6
+86,6,unknown,extra_cmd_failed,expected:true_got:State saved (encrypted): {'led_mode': 0, 'charge': 0, 'quest_level': 0, 'game_won': False, 'temp_maxed': False, 'humidity_maxed': False, 'pressure_maxed': False, 'training_complete': False, 'training_printed': False, 'mode': 0, 'QA_pass': 1}
+89,6,885721467600,connected,ok
+89,6,885721467600,wrong_level,badge:0_need:6
+98,6,885721467600,connected,ok
+98,6,885721467600,wrong_level,badge:0_need:6
+317,6,885721472734,connected,ok
+317,6,885721472734,extra_cmd_failed,expected:true_got:Badge boosted: False
+374,6,8857214746a4,connected,ok
+374,6,8857214746a4,wrong_level,badge:3_need:6
+550,6,885721475094,connected,ok
+550,6,885721475094,wrong_level,badge:3_need:6
+851,6,8857214744fc,connected,ok
+851,6,8857214744fc,extra_cmd_failed,expected:true_got:Badge boosted: False
+944,6,004b12e17f58,connected,ok
+944,6,004b12e17f58,extra_cmd_failed,expected:true_got:Badge boosted: False
+982,6,004b12e17f58,connected,ok
+990,6,004b12e17f58,connected,ok
+991,6,004b12e17f58,extra_cmd_failed,expected:true_got:Badge boosted: False
+1292,6,88572147436c,connected,ok
+1293,6,88572147436c,wrong_level,badge:0_need:6
+3,6,885721474364,connected,ok
+3,6,885721474364,extra_cmd_failed,expected:true_got:Badge boosted: False
+11,6,885721474364,connected,ok
+11,6,885721474364,extra_cmd_failed,expected:true_got:Badge boosted: False
+60,6,88572147468c,connected,ok
+60,6,88572147468c,extra_cmd_failed,expected:true_got:Badge boosted: False
+84,6,88572147468c,connected,ok
+84,6,88572147468c,extra_cmd_failed,expected:true_got:Badge boosted: False
+184,6,885721474364,connected,ok
+184,6,885721474364,extra_cmd_failed,expected:true_got:Badge boosted: False
+11,6,8857214746ec,connected,ok
+14,6,8857214746ec,level_up,from:6
+125,6,88572147478c,connected,ok
+128,6,88572147478c,level_up,from:6
+281,6,885721419678,connected,ok
+281,6,885721419678,wrong_level,badge:3_need:6
+25,6,885721475010,connected,ok
+25,6,885721475010,extra_cmd_failed,expected:true_got:Badge boosted: False
+49,6,885721475024,connected,ok
+49,6,885721475024,extra_cmd_failed,expected:true_got:Badge boosted: False
+53,6,885721475024,connected,ok
+53,6,885721475024,extra_cmd_failed,expected:true_got:Badge boosted: False
+55,6,885721475024,connected,ok
+55,6,885721475024,extra_cmd_failed,expected:true_got:Badge boosted: False
+67,6,885721475024,connected,ok
+67,6,885721475024,extra_cmd_failed,expected:true_got:Badge boosted: False
+70,6,885721475024,connected,ok
+71,6,885721475024,extra_cmd_failed,expected:true_got:Badge boosted: False
+274,6,8857214745b0,connected,ok
+274,6,8857214745b0,wrong_level,badge:0_need:6
+1,6,885721474330,connected,ok
+1,6,885721474330,discharge_failed,battery_not_full
+19,6,885721474330,connected,ok
+37,6,885721474330,connected,ok
+38,6,885721474330,discharge_failed,battery_not_full
+41,6,885721474330,connected,ok
+42,6,885721474330,discharge_failed,battery_not_full
+125,6,885721474330,connected,ok
+129,6,885721474330,level_up,from:6
+76,6,885721474200,connected,ok
+76,6,885721474200,wrong_level,badge:0_need:6
+88,6,885721474200,connected,ok
+89,6,885721474200,wrong_level,badge:0_need:6
+196,6,885721474534,connected,ok
+201,6,885721474534,connected,ok
+201,6,885721474534,discharge_failed,battery_not_full
+217,6,885721474534,connected,ok
+220,6,885721474534,level_up,from:6
+2,6,004b12e17f58,connected,ok
+2,6,004b12e17f58,extra_cmd_failed,expected:true_got:Badge boosted: False
+26,6,004b12e17f58,connected,ok
+26,6,004b12e17f58,extra_cmd_failed,expected:true_got:Badge boosted: False
+156,6,8857214727a0,connected,ok
+156,6,8857214727a0,wrong_level,badge:2_need:6
+333,6,unknown,level_up,from:None
+512,6,885721474378,connected,ok
+515,6,885721474378,level_up,from:6
+541,6,004b12e1eadc,connected,ok
+542,6,004b12e1eadc,extra_cmd_failed,expected:true_got:Badge boosted: False
+546,6,004b12e1eadc,connected,ok
+546,6,004b12e1eadc,extra_cmd_failed,expected:true_got:Badge boosted: False
+548,6,004b12e1eadc,connected,ok
+548,6,004b12e1eadc,extra_cmd_failed,expected:true_got:Badge boosted: False
+577,6,88572147468c,connected,ok
+580,6,88572147468c,level_up,from:6
+594,6,004b12e17f58,connected,ok
+594,6,004b12e17f58,extra_cmd_failed,expected:true_got:Badge boosted: False
+4,6,885721472848,connected,ok
+4,6,885721472848,wrong_level,badge:2_need:6
+8,6,885721472848,connected,ok
+8,6,885721472848,wrong_level,badge:2_need:6
+814,6,885721474064,connected,ok
+814,6,885721474064,extra_cmd_failed,expected:true_got:Badge boosted: False
+841,6,885721474064,connected,ok
+841,6,885721474064,extra_cmd_failed,expected:true_got:Badge boosted: False
+868,6,885721474064,connected,ok
+868,6,885721474064,extra_cmd_failed,expected:true_got:Badge boosted: False
+873,6,885721474064,connected,ok
+1226,6,8857214742e4,connected,ok
+1229,6,8857214742e4,level_up,from:6
+1572,6,004b12e15da4,connected,ok
+1573,6,004b12e15da4,discharge_failed,battery_not_full
+1575,6,004b12e15da4,connected,ok
+1575,6,004b12e15da4,discharge_failed,battery_not_full
+1589,6,885721472e58,connected,ok
+1590,6,885721472e58,extra_cmd_failed,expected:true_got:Badge boosted: False
+2,6,885721467668,connected,ok
+5,6,885721467668,level_up,from:6
+269,6,885721472e58,connected,ok
+269,6,885721472e58,extra_cmd_failed,expected:true_got:Badge boosted: False
+273,6,885721472e58,connected,ok
+273,6,885721472e58,extra_cmd_failed,expected:true_got:Badge boosted: False
+288,6,885721472e58,connected,ok
+288,6,885721472e58,extra_cmd_failed,expected:true_got:Badge boosted: False
+644,6,8857214741dc,connected,ok
+644,6,8857214741dc,extra_cmd_failed,expected:true_got:Badge boosted: False
+648,6,8857214741dc,connected,ok
+648,6,8857214741dc,extra_cmd_failed,expected:true_got:Badge boosted: False
+806,6,88572147405c,connected,ok
+809,6,88572147405c,level_up,from:6
+819,6,885721474068,connected,ok
+823,6,885721474068,level_up,from:6
+884,6,unknown,level_up,from:None
+931,6,88572147461c,connected,ok
+934,6,88572147461c,level_up,from:6
+12,6,885721472854,connected,ok
+12,6,885721472854,wrong_level,badge:0_need:6
+66,6,88572147472c,connected,ok
+67,6,88572147472c,wrong_level,badge:0_need:6
+352,6,885721474798,connected,ok
+352,6,885721474798,wrong_level,badge:3_need:6
+387,6,885721474338,connected,ok
+391,6,885721474338,level_up,from:6
+3,6,885721471e68,connected,ok
+3,6,885721471e68,wrong_level,badge:3_need:6
+85,6,885721467344,connected,ok
+85,6,885721467344,wrong_level,badge:2_need:6
+219,6,885721475010,connected,ok
+219,6,885721475010,extra_cmd_failed,expected:true_got:Badge boosted: False
+223,6,885721475010,connected,ok
+223,6,885721475010,extra_cmd_failed,expected:true_got:Badge boosted: False
+227,6,885721475010,connected,ok
+227,6,885721475010,extra_cmd_failed,expected:true_got:Badge boosted: False
+235,6,885721475010,connected,ok
+235,6,885721475010,extra_cmd_failed,expected:true_got:Badge boosted: False
+239,6,885721475010,connected,ok
+239,6,885721475010,extra_cmd_failed,expected:true_got:Badge boosted: False
+243,6,885721475010,connected,ok
+243,6,885721475010,extra_cmd_failed,expected:true_got:Badge boosted: False
+306,6,004b12e15da4,connected,ok
+309,6,004b12e15da4,level_up,from:6
+332,6,8857214726d8,connected,ok
+332,6,8857214726d8,wrong_level,badge:2_need:6
+335,6,8857214726d8,connected,ok
+336,6,8857214726d8,wrong_level,badge:2_need:6
+3,6,885721471e68,connected,ok
+3,6,885721471e68,wrong_level,badge:4_need:6
+15,6,885721471e68,connected,ok
+15,6,885721471e68,wrong_level,badge:4_need:6
+23,6,004b12e1eadc,connected,ok
+26,6,004b12e1eadc,level_up,from:6
+140,6,885721474200,connected,ok
+141,6,885721474200,wrong_level,badge:2_need:6
+240,6,885721475010,connected,ok
+244,6,885721475010,level_up,from:6
+521,6,004b12e0efc8,connected,ok
+524,6,004b12e0efc8,level_up,from:6
+556,6,004b12e1ecf8,connected,ok
+556,6,004b12e1ecf8,wrong_level,badge:0_need:6
+605,6,885721474364,connected,ok
+609,6,885721474364,level_up,from:6
+987,6,8857214747c0,connected,ok
+988,6,8857214747c0,wrong_level,badge:3_need:6
+1197,6,885721474548,connected,ok
+1198,6,885721474548,wrong_level,badge:3_need:6
+1264,6,88572147472c,connected,ok
+1264,6,88572147472c,wrong_level,badge:2_need:6
+1333,6,885721474190,connected,ok
+1333,6,885721474190,extra_cmd_failed,expected:true_got:Badge boosted: False
+1357,6,885721474190,connected,ok
+1357,6,885721474190,extra_cmd_failed,expected:true_got:Badge boosted: False
+1361,6,885721474190,connected,ok
+1361,6,885721474190,extra_cmd_failed,expected:true_got:Badge boosted: False
+1463,6,885721467638,connected,ok
+1467,6,885721467638,level_up,from:6
+1946,6,140808a22868,connected,ok
+1949,6,140808a22868,level_up,from:6
+26,6,004b12e0c764,connected,ok
+29,6,004b12e0c764,level_up,from:6
+207,6,885721472e58,connected,ok
+210,6,885721472e58,level_up,from:6
+297,6,885721474064,connected,ok
+300,6,885721474064,level_up,from:6
+2,6,885721471e80,connected,ok
+6,6,885721471e80,level_up,from:6
+30,6,885721471e80,connected,ok
+30,6,885721471e80,wrong_level,badge:7_need:6
+53,6,885721474320,connected,ok
+53,6,885721474320,extra_cmd_failed,expected:true_got:Badge boosted: False
+57,6,885721474320,connected,ok
+57,6,885721474320,extra_cmd_failed,expected:true_got:Badge boosted: False
+94,6,8857214745dc,connected,ok
+97,6,8857214745dc,level_up,from:6
+229,6,8857214747b4,connected,ok
+229,6,8857214747b4,discharge_failed,battery_not_full
+251,6,8857214747b4,connected,ok
+254,6,8857214747b4,level_up,from:6
+623,6,885721474560,connected,ok
+627,6,885721474560,level_up,from:6
+1,6,885721419678,connected,ok
+4,6,885721419678,level_up,from:6
+74,6,8857214728a4,connected,ok
+74,6,8857214728a4,wrong_level,badge:2_need:6
+78,6,8857214728a4,connected,ok
+78,6,8857214728a4,wrong_level,badge:2_need:6
+82,6,8857214728a4,connected,ok
+82,6,8857214728a4,wrong_level,badge:2_need:6
+2,6,885721474384,connected,ok
+2,6,885721474384,wrong_level,badge:5_need:6
+18,6,885721474384,connected,ok
+18,6,885721474384,wrong_level,badge:5_need:6
+1,6,8857214746a4,connected,ok
+4,6,8857214746a4,level_up,from:6
+32,6,88572147505c,connected,ok
+32,6,88572147505c,wrong_level,badge:2_need:6
+39,6,004b12e17f58,connected,ok
+42,6,004b12e17f58,level_up,from:6
+103,6,885721474384,connected,ok
+103,6,885721474384,wrong_level,badge:5_need:6
+2,6,8857214747e8,connected,ok
+5,6,8857214747e8,level_up,from:6
+16,6,8857214747e8,connected,ok
+16,6,8857214747e8,wrong_level,badge:7_need:6
+177,6,885721474384,connected,ok
+178,6,885721474384,discharge_failed,battery_not_full
+193,6,885721474384,connected,ok
+197,6,885721474384,level_up,from:6
+219,6,885721474384,connected,ok
+219,6,885721474384,wrong_level,badge:7_need:6
+214,6,885721472898,connected,ok
+218,6,885721472898,level_up,from:6
+19,6,8857214728b8,connected,ok
+22,6,8857214728b8,level_up,from:6
+127,6,88572147502c,connected,ok
+127,6,88572147502c,wrong_level,badge:2_need:6
+3,6,885721471f48,connected,ok
+6,6,885721471f48,level_up,from:6
+118,6,88572147502c,connected,ok
+118,6,88572147502c,wrong_level,badge:2_need:6
+666,6,140808a3a4d0,connected,ok
+670,6,140808a3a4d0,level_up,from:6
+2,6,8857214741dc,connected,ok
+6,6,8857214741dc,level_up,from:6
+47,6,8857214746a0,connected,ok
+47,6,8857214746a0,wrong_level,badge:2_need:6
+11,6,885721474008,connected,ok
+11,6,885721474008,extra_cmd_failed,expected:true_got:Badge boosted: False
+15,6,885721474008,connected,ok
+15,6,885721474008,extra_cmd_failed,expected:true_got:Badge boosted: False
+2058,6,885721467260,connected,ok
+2058,6,885721467260,wrong_level,badge:0_need:6
+2063,6,885721467260,connected,ok
+2063,6,885721467260,wrong_level,badge:0_need:6
+2067,6,unknown,extra_cmd_failed,expected:true_got:State saved (encrypted): {'led_mode': 0, 'charge': 0, 'quest_level': 0, 'game_won': False, 'temp_maxed': False, 'humidity_maxed': False, 'pressure_maxed': False, 'training_complete': False, 'training_printed': False, 'mode': 4, 'QA_pass': 1}
+2073,6,885721467260,connected,ok
+2073,6,885721467260,wrong_level,badge:0_need:6
+2083,6,885721467260,connected,ok
+2083,6,885721467260,wrong_level,badge:0_need:6
+1,6,885721419730,connected,ok
+4,6,885721419730,level_up,from:6
+33,6,885721467260,connected,ok
+33,6,885721467260,wrong_level,badge:0_need:6
+39,6,885721467260,connected,ok
+39,6,885721467260,wrong_level,badge:0_need:6
+56,6,885721467260,connected,ok
+56,6,885721467260,wrong_level,badge:0_need:6
+128,6,885721467260,connected,ok
+128,6,885721467260,wrong_level,badge:0_need:6
+155,6,885721474530,connected,ok
+155,6,885721474530,wrong_level,badge:5_need:6
+163,6,885721474530,connected,ok
+164,6,885721474530,wrong_level,badge:5_need:6
+168,6,885721474530,connected,ok
+168,6,885721474530,wrong_level,badge:5_need:6
+372,6,885721474190,connected,ok
+372,6,885721474190,extra_cmd_failed,expected:true_got:Badge boosted: False
+381,6,885721474190,connected,ok
+381,6,885721474190,extra_cmd_failed,expected:true_got:Badge boosted: False
+1,6,140808a22644,connected,ok
+2,6,140808a22644,wrong_level,badge:3_need:6
+113,6,8857214746d8,connected,ok
+113,6,8857214746d8,wrong_level,badge:3_need:6
+148,6,885721472828,connected,ok
+148,6,885721472828,wrong_level,badge:2_need:6
+1,6,88572147453c,connected,ok
+1,6,88572147453c,extra_cmd_failed,expected:true_got:Badge boosted: False
+296,6,885721472e2c,connected,ok
+299,6,885721472e2c,level_up,from:6
+350,6,885721475040,connected,ok
+353,6,885721475040,level_up,from:6
+413,6,885721474ffc,connected,ok
+414,6,885721474ffc,wrong_level,badge:3_need:6
+544,6,885721474fc0,connected,ok
+545,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+547,6,885721474fc0,connected,ok
+547,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+567,6,885721474fc0,connected,ok
+567,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+572,6,885721474fc0,connected,ok
+572,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+576,6,885721474fc0,connected,ok
+576,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+586,6,885721474fc0,connected,ok
+586,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+604,6,88572147466c,connected,ok
+604,6,88572147466c,extra_cmd_failed,expected:true_got:Badge boosted: False
+622,6,88572147466c,connected,ok
+623,6,88572147466c,extra_cmd_failed,expected:true_got:Badge boosted: False
+625,6,88572147466c,connected,ok
+625,6,88572147466c,extra_cmd_failed,expected:true_got:Badge boosted: False
+627,6,88572147466c,connected,ok
+632,6,88572147466c,connected,ok
+633,6,88572147466c,extra_cmd_failed,expected:true_got:Badge boosted: False
+668,6,885721474fc0,connected,ok
+668,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+672,6,885721474fc0,connected,ok
+672,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+676,6,885721474fc0,connected,ok
+676,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+679,6,885721474fc0,connected,ok
+679,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+733,6,885721474fc0,connected,ok
+733,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+735,6,885721474fc0,connected,ok
+735,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+748,6,885721474fc0,connected,ok
+749,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+755,6,885721474fc0,connected,ok
+756,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+758,6,885721474fc0,connected,ok
+758,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+767,6,885721474fc0,connected,ok
+767,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+769,6,885721474fc0,connected,ok
+769,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+783,6,885721474fc0,connected,ok
+783,6,885721474fc0,extra_cmd_failed,expected:true_got:Badge boosted: False
+1,6,88572147511c,connected,ok
+4,6,88572147511c,level_up,from:6
+17,6,885721471ed4,connected,ok
+21,6,885721471ed4,level_up,from:6
+1,6,8857214741dc,connected,ok
+1,6,8857214741dc,wrong_level,badge:7_need:6
+60,6,885721474074,connected,ok
+63,6,885721474074,level_up,from:6
+2,6,8857214746c4,connected,ok
+3,6,8857214746c4,wrong_level,badge:5_need:6
+9,6,8857214746c4,connected,ok
+9,6,8857214746c4,wrong_level,badge:5_need:6
+91,6,8857214196e8,connected,ok
+94,6,8857214196e8,level_up,from:6
+140,6,885721474500,connected,ok
+140,6,885721474500,extra_cmd_failed,expected:true_got:Badge boosted: False
+142,6,885721474500,connected,ok
+143,6,885721474500,extra_cmd_failed,expected:true_got:Badge boosted: False
+4,6,88572147500c,connected,ok
+4,6,88572147500c,extra_cmd_failed,expected:true_got:Badge boosted: False
+85,6,885721474400,connected,ok
+85,6,885721474400,wrong_level,badge:5_need:6
+104,6,885721474400,connected,ok
+104,6,885721474400,wrong_level,badge:5_need:6
+833,6,885721474400,connected,ok
+834,6,885721474400,wrong_level,badge:5_need:6
+839,6,885721474400,connected,ok
+840,6,885721474400,wrong_level,badge:5_need:6
+871,6,8857214746c4,connected,ok
+871,6,8857214746c4,wrong_level,badge:5_need:6
+944,6,885721472dd8,connected,ok
+944,6,885721472dd8,wrong_level,badge:5_need:6
+1033,6,885721474408,connected,ok
+1034,6,885721474408,wrong_level,badge:5_need:6
+1070,6,885721474530,connected,ok
+1070,6,885721474530,wrong_level,badge:5_need:6
+1073,6,885721474530,connected,ok
+1073,6,885721474530,wrong_level,badge:5_need:6
+3,6,885721474508,connected,ok
+7,6,885721474508,level_up,from:6
+46,6,885721474408,connected,ok
+46,6,885721474408,wrong_level,badge:5_need:6
+1,6,885721474530,connected,ok
+2,6,885721474530,wrong_level,badge:5_need:6
+65,6,8857214746c4,connected,ok
+65,6,8857214746c4,wrong_level,badge:5_need:6
+82,6,8857214746c4,connected,ok
+82,6,8857214746c4,wrong_level,badge:5_need:6
+94,6,885721474408,connected,ok
+94,6,885721474408,wrong_level,badge:5_need:6
+107,6,885721467680,connected,ok
+107,6,885721467680,extra_cmd_failed,expected:true_got:Badge boosted: False
+162,6,885721474408,connected,ok
+162,6,885721474408,wrong_level,badge:5_need:6
+14,6,885721474400,connected,ok
+14,6,885721474400,wrong_level,badge:5_need:6
+2,6,8857214746c4,connected,ok
+3,6,8857214746c4,wrong_level,badge:5_need:6
+133,6,8857214746c4,connected,ok
+133,6,8857214746c4,wrong_level,badge:5_need:6
+155,6,8857214746c4,connected,ok
+155,6,8857214746c4,wrong_level,badge:5_need:6
+168,5,8857214746c4,connected,ok
+171,5,8857214746c4,level_up,from:5
+210,5,885721474408,connected,ok
+213,5,885721474408,level_up,from:5
+225,5,885721474400,connected,ok
+228,5,885721474400,level_up,from:5
+267,5,885721474530,connected,ok
+270,5,885721474530,level_up,from:5
+2,6,8857214746c4,connected,ok
+2,6,8857214746c4,discharge_failed,battery_not_full
+13,6,885721474400,connected,ok
+17,6,885721474400,level_up,from:6
+28,6,8857214746c4,connected,ok
+32,6,8857214746c4,level_up,from:6
+95,6,885721474408,connected,ok
+96,6,885721474408,discharge_failed,battery_not_full
+112,6,885721474408,connected,ok
+112,6,885721474408,discharge_failed,battery_not_full
+148,6,885721474408,connected,ok
+152,6,885721474408,level_up,from:6
+2,6,8857214728cc,connected,ok
+2,6,8857214728cc,wrong_level,badge:2_need:6
+22,6,8857214741f0,connected,ok
+22,6,8857214741f0,extra_cmd_failed,expected:true_got:Badge boosted: False
+3,6,885721474530,connected,ok
+3,6,885721474530,discharge_failed,battery_not_full
+7,6,885721474530,connected,ok
+7,6,885721474530,discharge_failed,battery_not_full
+23,6,885721474530,connected,ok
+23,6,885721474530,discharge_failed,battery_not_full
+2,6,885721474530,connected,ok
+5,6,885721474530,level_up,from:6
+329,6,885721474ffc,connected,ok
+329,6,885721474ffc,wrong_level,badge:3_need:6
+1,6,885721474194,connected,ok
+4,6,885721474194,level_up,from:6
+85,6,885721474598,connected,ok
+85,6,885721474598,wrong_level,badge:0_need:6
+127,6,885721474598,connected,ok
+128,6,885721474598,wrong_level,badge:0_need:6
+130,6,885721474598,connected,ok
+130,6,885721474598,wrong_level,badge:0_need:6
+141,6,88572147455c,connected,ok
+144,6,88572147455c,level_up,from:6
+157,6,885721474598,connected,ok
+157,6,885721474598,wrong_level,badge:0_need:6
+178,6,885721474598,connected,ok
+178,6,885721474598,wrong_level,badge:0_need:6
+2,6,885721474008,connected,ok
+5,6,885721474008,level_up,from:6
+156,6,8857214676c8,connected,ok
+156,6,8857214676c8,extra_cmd_failed,expected:true_got:Badge boosted: False
+2,6,88572146763c,connected,ok
+3,6,88572146763c,wrong_level,badge:5_need:6
+174,6,88572146763c,connected,ok
+174,6,88572146763c,wrong_level,badge:5_need:6
+225,6,885721474218,connected,ok
+228,6,885721474218,level_up,from:6
+3,6,885721474308,connected,ok
+6,6,885721474308,level_up,from:6
+3,6,8857214750e4,connected,ok
+6,6,8857214750e4,level_up,from:6
+3,6,140808a22250,connected,ok
+10,6,140808a22250,connected,ok
+10,6,140808a22250,discharge_failed,battery_not_full
+17,6,140808a22250,connected,ok
+17,6,140808a22250,discharge_failed,battery_not_full
+57,6,140808a22250,connected,ok
+57,6,140808a22250,discharge_failed,battery_not_full
+101,6,140808a22250,connected,ok
+104,6,140808a22250,discharge_failed,battery_not_full
+106,6,140808a22250,connected,ok
+106,6,140808a22250,discharge_failed,battery_not_full
+111,6,140808a22250,connected,ok
+112,6,140808a22250,discharge_failed,battery_not_full
+276,6,8857214747dc,connected,ok
+280,6,8857214747dc,level_up,from:6
+1,6,88572146763c,connected,ok
+5,6,88572146763c,level_up,from:6
+65,6,885721474320,connected,ok
+69,6,885721474320,level_up,from:6
+77,6,8857214196c0,connected,ok
+83,6,8857214196c0,level_up,from:None
+1,6,885721474190,connected,ok
+1,6,885721474190,extra_cmd_failed,expected:true_got:Badge boosted: False
+8,6,885721474190,connected,ok
+8,6,885721474190,extra_cmd_failed,expected:true_got:Badge boosted: False
+12,6,885721474190,connected,ok
+12,6,885721474190,extra_cmd_failed,expected:true_got:Badge boosted: False
+2,6,885721419744,connected,ok
+2,6,885721419744,extra_cmd_failed,expected:true_got:Badge boosted: False
+3,6,885721474500,connected,ok
+6,6,885721474500,level_up,from:6
+97,6,885721419700,connected,ok
+101,6,885721419700,level_up,from:6
+124,6,885721472e24,connected,ok
+124,6,885721472e24,discharge_failed,battery_not_full
+2,6,885721472e24,connected,ok
+3,6,885721472e24,discharge_failed,battery_not_full
+16,6,8857214750fc,connected,ok
+19,6,8857214750fc,level_up,from:6
+32,6,885721472e24,connected,ok
+33,6,885721472e24,discharge_failed,battery_not_full
+54,6,885721472e24,connected,ok
+57,6,885721472e24,level_up,from:6
+137,6,885721474770,connected,ok
+138,6,885721474770,extra_cmd_failed,expected:true_got:Badge boosted: False
+143,6,885721474770,connected,ok
+143,6,885721474770,extra_cmd_failed,expected:true_got:Badge boosted: False
+158,6,885721474770,connected,ok
+158,6,885721474770,extra_cmd_failed,expected:true_got:Badge boosted: False
+196,6,885721474770,connected,ok
+196,6,885721474770,extra_cmd_failed,expected:true_got:Badge boosted: False
+2,6,885721474740,connected,ok
+3,6,885721474740,extra_cmd_failed,expected:true_got:Badge boosted: False
+14,6,885721474740,connected,ok
+15,6,885721474740,extra_cmd_failed,expected:true_got:Badge boosted: False
+20,6,885721474740,connected,ok
+20,6,885721474740,extra_cmd_failed,expected:true_got:Badge boosted: False
+2,6,88572146764c,connected,ok
+6,6,88572146764c,level_up,from:6
+122,6,88572147479c,connected,ok
+126,6,88572147479c,level_up,from:6
+1,6,885721474190,connected,ok
+1,6,885721474190,extra_cmd_failed,expected:true_got:Badge boosted: False
+144,6,140808a39228,connected,ok
+147,6,140808a39228,level_up,from:6
+1,6,8857214676ac,connected,ok
+4,6,8857214676ac,level_up,from:6
+158,6,885721471f50,connected,ok
+158,6,885721471f50,wrong_level,badge:5_need:6
+347,6,88572147500c,connected,ok
+350,6,88572147500c,level_up,from:6
+487,6,140808a3a2ac,connected,ok
+487,6,140808a3a2ac,wrong_level,badge:5_need:6
+615,6,140808a3a2ac,connected,ok
+615,6,140808a3a2ac,wrong_level,badge:5_need:6
+617,6,140808a3a2ac,connected,ok
+617,6,140808a3a2ac,wrong_level,badge:5_need:6
+100,6,88572147512c,connected,ok
+101,6,88572147512c,extra_cmd_failed,expected:true_got:Badge boosted: False
+209,6,140808a3a2ac,connected,ok
+209,6,140808a3a2ac,wrong_level,badge:5_need:6
+357,6,8857214743a4,connected,ok
+360,6,8857214743a4,level_up,from:6
+379,6,885721474798,connected,ok
+383,6,885721474798,connected,ok
+383,6,885721474798,discharge_failed,battery_not_full
+391,6,885721471f50,connected,ok
+395,6,885721471f50,level_up,from:6
+407,6,885721474798,connected,ok
+410,6,885721474798,level_up,from:6
+422,6,140808a39048,connected,ok
+422,6,140808a39048,extra_cmd_failed,expected:true_got:Badge boosted: False
+428,6,140808a39048,connected,ok
+428,6,140808a39048,extra_cmd_failed,expected:true_got:Badge boosted: False
+12,6,140808a3a2ac,connected,ok
+15,6,140808a3a2ac,level_up,from:6
+26,6,885721475094,connected,ok
+30,6,885721475094,level_up,from:6
+819,6,885721474730,connected,ok
+819,6,885721474730,extra_cmd_failed,expected:true_got:Badge boosted: False
+823,6,885721474730,connected,ok
+823,6,885721474730,extra_cmd_failed,expected:true_got:Badge boosted: False
+832,6,885721474730,connected,ok
+833,6,885721474730,extra_cmd_failed,expected:true_got:Badge boosted: False
+849,6,885721474730,connected,ok
+849,6,885721474730,extra_cmd_failed,expected:true_got:Badge boosted: False
+860,6,885721474730,connected,ok
+860,6,885721474730,extra_cmd_failed,expected:true_got:Badge boosted: False
+865,6,885721474730,connected,ok
+865,6,885721474730,extra_cmd_failed,expected:true_got:Badge boosted: False
+870,6,885721474730,connected,ok
+870,6,885721474730,extra_cmd_failed,expected:true_got:Badge boosted: False
+879,6,885721474730,connected,ok
+879,6,885721474730,extra_cmd_failed,expected:true_got:Badge boosted: False
+9,6,885721471edc,connected,ok
+9,6,885721471edc,extra_cmd_failed,expected:true_got:Badge boosted: False
+13,6,88572147275c,connected,ok
+14,6,88572147275c,extra_cmd_failed,expected:true_got:Badge boosted: False
+378,6,885721472760,connected,ok
+381,6,885721472760,level_up,from:6
+413,6,885721474730,connected,ok
+417,6,885721474730,level_up,from:6
+497,6,885721475084,connected,ok
+501,6,885721475084,level_up,from:6
+562,6,88572147505c,connected,ok
+565,6,88572147505c,level_up,from:6
+889,6,8857214726d0,connected,ok
+890,6,8857214726d0,wrong_level,badge:2_need:6
+924,6,885721474fc0,connected,ok
+928,6,885721474fc0,level_up,from:6
+954,6,88572147466c,connected,ok
+958,6,88572147466c,level_up,from:6
+8,6,140808a22250,connected,ok
+11,6,140808a22250,level_up,from:6
+7,6,88572147421c,connected,ok
+10,6,88572147421c,level_up,from:6
+151,6,8857214746cc,connected,ok
+154,6,8857214746cc,level_up,from:6
+256,6,885721474368,connected,ok
+260,6,885721474368,level_up,from:6
+1241,6,885721471edc,connected,ok
+1245,6,885721471edc,level_up,from:6
+1,6,8857214728cc,connected,ok
+1,6,8857214728cc,wrong_level,badge:3_need:6
+1,6,885721472870,connected,ok
+5,6,885721472870,level_up,from:6
+231,6,88572147503c,connected,ok
+235,6,88572147503c,level_up,from:6
+16,6,885721474fc4,connected,ok
+16,6,885721474fc4,wrong_level,badge:3_need:6
+8,6,8857214728cc,connected,ok
+8,6,8857214728cc,wrong_level,badge:5_need:6
+89,6,885721474fd8,connected,ok
+89,6,885721474fd8,extra_cmd_failed,expected:true_got:Badge boosted: False
+95,6,885721474fd8,connected,ok
+95,6,885721474fd8,extra_cmd_failed,expected:true_got:Badge boosted: False
+105,6,885721474fd8,connected,ok
+105,6,885721474fd8,extra_cmd_failed,expected:true_got:Badge boosted: False
+122,6,885721474fd8,connected,ok
+122,6,885721474fd8,extra_cmd_failed,expected:true_got:Badge boosted: False
+137,6,885721474fd8,connected,ok
+137,6,885721474fd8,extra_cmd_failed,expected:true_got:Badge boosted: False
+199,6,885721474fd8,connected,ok
+199,6,885721474fd8,extra_cmd_failed,expected:true_got:Badge boosted: False
+202,6,885721474fd8,connected,ok
+203,6,885721474fd8,extra_cmd_failed,expected:true_got:Badge boosted: False
+2,6,8857214728cc,connected,ok
+2,6,8857214728cc,wrong_level,badge:5_need:6
+1,6,885721467680,connected,ok
+4,6,885721467680,level_up,from:6
+2,6,8857214728cc,connected,ok
+2,6,8857214728cc,wrong_level,badge:5_need:6
+78,6,140808a356f4,connected,ok
+81,6,140808a356f4,level_up,from:6
+90,6,885721475004,connected,ok
+95,6,885721475004,level_up,from:6
+2,6,8857214743f8,connected,ok
+6,6,8857214743f8,level_up,from:6
+17,6,885721474fd8,connected,ok
+21,6,885721474fd8,level_up,from:6
+2,6,8857214728cc,connected,ok
+2,6,8857214728cc,wrong_level,badge:5_need:6
+199,6,885721474630,connected,ok
+202,6,885721474630,level_up,from:6
+229,6,885721467684,connected,ok
+233,6,885721467684,level_up,from:6
+238,6,885721467684,connected,ok
+238,6,885721467684,wrong_level,badge:7_need:6
+250,6,88572147507c,connected,ok
+253,6,88572147507c,level_up,from:6
+463,6,8857214728b4,connected,ok
+463,6,8857214728b4,extra_cmd_failed,expected:true_got:Badge boosted: False
+484,6,8857214728b4,connected,ok
+484,6,8857214728b4,extra_cmd_failed,expected:true_got:Badge boosted: False
+1,6,8857214728cc,connected,ok
+1,6,8857214728cc,extra_cmd_failed,expected:true_got:Badge boosted: False
+652,6,8857214746b8,connected,ok
+656,6,8857214746b8,level_up,from:6
+2,6,8857214741e0,connected,ok
+6,6,8857214741e0,level_up,from:6
+2,6,885721475100,connected,ok
+5,6,885721475100,level_up,from:6
+3,6,885721472718,connected,ok
+6,6,885721472718,level_up,from:6
+23,6,8857214745b0,connected,ok
+27,6,8857214745b0,level_up,from:6
+2,6,885721467600,connected,ok
+5,6,885721467600,level_up,from:6
+769,6,885721474fe0,connected,ok
+772,6,885721474fe0,level_up,from:6
+8,6,885721472770,connected,ok
+8,6,885721472770,wrong_level,badge:3_need:6
+13,6,unknown,level_up,from:None
+89,6,140808a228b4,connected,ok
+93,6,140808a228b4,level_up,from:6
+120,6,885721472754,connected,ok
+120,6,885721472754,discharge_failed,battery_not_full
+134,6,885721472754,connected,ok
+138,6,885721472754,level_up,from:6
+710,6,140808a2566c,connected,ok
+714,6,140808a2566c,level_up,from:None
+
